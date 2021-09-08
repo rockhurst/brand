@@ -1,0 +1,11 @@
+name: Brand Theme
+type: theme
+base theme: false
+description: 'Custom Rockhurst brand theme.'
+alt text: 'Rockhurst brand theme.'
+core_version_requirement: ^8 || ^9
+package: Core
+version: VERSION
+experimental: true
+libraries:
+  - brand/global-styling
