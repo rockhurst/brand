@@ -1,5 +1,5 @@
 {
-    "name": "rockhurst/brand-theme",
+    "name": "rockhurst/brand",
     "description": "Rockhurst University Brand Guide custom theme",
     "type": "drupal-custom-theme",
     "autoload": {
