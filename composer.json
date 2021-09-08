@@ -1,0 +1,17 @@
+{
+    "name": "rockhurst/brand-theme",
+    "description": "Rockhurst University Brand Guide custom theme",
+    "type": "drupal-custom-theme",
+    "autoload": {
+        "psr-4": {
+            "Rockhurst\\BrandTheme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "luse-frank",
+            "email": "84339142+luse-frank@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
