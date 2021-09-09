@@ -8,28 +8,28 @@
   src: url('/fonts/FreightSansProMedium-Regular.ttf');
 }
 
-h1 {
+.h1-primary {
     font-family: 'FreightSansProBold', sans-serif;
     font-size: 36px;
     font-weight: 500;
     color: white;
 }
 
-h2 {
+.h2-primary {
     font-family: 'FreightSansProBold', sans-serif;
     font-size: 32px;
     font-weight: 500;
     color: white;
 }
 
-h3 {
+.h3-primary {
     font-family: 'FreightSansProBold', sans-serif;
     font-size: 24px;
     font-weight: 500;
     color: white;
 }
 
-p {
+.p-primary {
     font-family: 'FreightSansProMedium';
     font-size: 18px;
     font-weight: 700;
@@ -37,7 +37,7 @@ p {
     letter-spacing: .04rem;
 }
 
-button {
+.btn-primary {
     width: 256px;
     height: 48px;
     background: transparent;
@@ -50,7 +50,7 @@ button {
     cursor: pointer;
 }
 
-    button:hover {
+    btn-primary:hover {
         background: white;
         color: #0058A6;
         transition: 0.5s;
