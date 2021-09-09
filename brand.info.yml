@@ -8,4 +8,4 @@ package: Core
 version: VERSION
 experimental: true
 libraries:
-  - brand/global-styling
+  - brand-theme/global-styling
