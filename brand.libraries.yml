@@ -2,11 +2,11 @@ global-styling:
   css:
     components:
       css/components/navbar.css: {}
-    fonts:
-      css/fonts/FreightSansProBold-Regular.ttf
-      css/fonts/FreightSansProBold-Regular.ttf
     theme:
       css/style.css: {}
       css/print.css: {}
   js:
     js/script.js: {}
+  fonts:
+    fonts/FreightSansProBold-Regular.ttf
+    fonts/FreightSansProBold-Regular.ttf
