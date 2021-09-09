@@ -3,5 +3,6 @@ global-styling:
     theme:
       css/style.css: {}
       css/print.css: {}
+      css/navbar.css: {}
   js:
     js/script.js: {}
