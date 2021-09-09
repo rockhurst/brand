@@ -1,9 +1,9 @@
 @font-face {
   font-family: "FreightSansProBold";
-  src: url('/fonts/FreightSansProBold-Regular.ttf');
+  src: url('fonts/FreightSansProBold-Regular.ttf');
 }
 
 @font-face {
   font-family: "FreightSansProMedium";
-  src: url('/fonts/FreightSansProMedium-Regular.ttf');
+  src: url('fonts/FreightSansProMedium-Regular.ttf');
 }
