@@ -1,8 +1,9 @@
 global-styling:
   css:
+    components:
+      css/components/navbar.css: {}
     theme:
       css/style.css: {}
       css/print.css: {}
-      css/navbar.css: {}
   js:
     js/script.js: {}
