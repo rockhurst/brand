@@ -17,3 +17,33 @@
     height: 64px;
     max-width: 1500px;
 }
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-item {
+    height: 64px;
+}
+
+.nav-links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    transition: all 0.5s ease-out;
+}
+
+.nav-links:hover {
+    color: #A2DCED;
+    transition: all 0.5s ease-out;
+}
