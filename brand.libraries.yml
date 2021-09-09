@@ -2,6 +2,8 @@ global-styling:
   css:
     components:
       css/components/navbar.css: {}
+    pages:
+      css/pages/home.css: {}
     theme:
       css/style.css: {}
       css/print.css: {}
