@@ -1,4 +1,4 @@
-name: brand-theme
+name: brand
 type: theme
 base theme: false
 description: 'Custom Rockhurst brand theme.'
@@ -8,4 +8,4 @@ package: Core
 version: VERSION
 experimental: true
 libraries:
-  - brand-theme/global-styling
+  - brand/global-styling
