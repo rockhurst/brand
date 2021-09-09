@@ -46,6 +46,8 @@
 .nav-links {
     color: #fff;
     font-family: 'FreightSansProBold';
+    font-style: normal;
+    font-weight: 700;
     font-size: 14px;
     display: flex;
     align-items: center;
