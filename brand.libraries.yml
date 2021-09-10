@@ -5,6 +5,7 @@ global-styling:
       css/components/footer.css: {}
     pages:
       css/pages/home.css: {}
+      css/pages/visualidentity.css: {}
     theme:
       css/style.css: {}
       css/print.css: {}
@@ -12,4 +13,4 @@ global-styling:
     js/script.js: {}
   fonts:
     fonts/FreightSansProBold-Regular.ttf
-    fonts/FreightSansProBold-Regular.ttf
+    fonts/FreightSansProMedium-Regular.ttf
