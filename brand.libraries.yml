@@ -6,6 +6,7 @@ global-styling:
     pages:
       css/pages/home.css: {}
       css/pages/visualidentity.css: {}
+      css/pages/ourstory.css: {}
     theme:
       css/style.css: {}
       css/print.css: {}
