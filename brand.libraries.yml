@@ -2,6 +2,7 @@ global-styling:
   css:
     components:
       css/components/navbar.css: {}
+      css/components/footer.css: {}
     pages:
       css/pages/home.css: {}
     theme:
