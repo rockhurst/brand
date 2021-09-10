@@ -1,0 +1,78 @@
+.our-story-hero-container {
+    background-image: url('/sites/default/files/FJG-ROCKHURST-1922.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 -16px;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 640px;
+}
+
+.overlay[type=thin] {
+    float: right;
+    background: #00217A;
+    opacity: 0.8;
+    width: 512px;
+    height: 384px;
+    margin-top: 128px;
+    margin-right: calc(50vw - 496px);
+}
+
+.our-story-text-container {
+    position: absolute;
+    width: 448px;
+    height: calc(100% - 32px);
+    padding: 16px;
+    margin-left: 50vw;
+    margin-top: 112px;
+}
+
+.brand-container {
+    width: 768px;
+    margin-left: calc(50vw - 384px);
+    margin-top: 64px;
+    margin-bottom: 64px;
+    text-align: left;
+}
+
+.verticals-container {
+    width: 100vw;
+    text-align: left;
+    background: #003057;
+}
+
+.verticals-text-container {
+    width: 768px;
+    margin-left: calc(50vw - 384px);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.quote-container {
+    text-align: left;
+    width: 100vw;
+    background: #A2DCED;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.quote-image {
+    background-image: url('/sites/default/files/FJG-ROCKHURST-3602.jpg');
+    background-size: cover;
+    width: 352px;
+    height: 352px;
+    border-radius: 176px;
+    float: left;
+    margin-left: calc(50vw - 576px);
+    margin-top: -62px;
+}
+
+.inner {
+    border: 2px solid #0058A6;
+    border-radius: 176px;
+    width: 332px;
+    height: 332px;
+    margin: 8px;
+}
