@@ -49,8 +49,9 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      <div class="cards-container">
-        {{ content.field_card }}
+      <div class="section-container">
+        <h1 class="h1-secondary">{{ content.field_title }}</h1>
+        <p class="p-secondary">{{ content.field_content }}</p>
       </div>
     {% endblock %}
   </div>

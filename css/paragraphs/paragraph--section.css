@@ -1,0 +1,6 @@
+.section-container {
+    width: 768px;
+    margin-left: calc(50vw - 344px);
+    margin-top: 64px;
+    text-align: left;
+}
