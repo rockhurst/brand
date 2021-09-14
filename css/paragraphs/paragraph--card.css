@@ -21,6 +21,12 @@
         transition: 0.5s;
     }
 
+.overlay img {
+    width: 160px;
+    height: 160px;
+    margin: 0;
+}
+
 .overlay a {
     position: absolute;
     text-align: center;

@@ -50,8 +50,8 @@
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
       <div class="image-container">
+        {{ content.field_image }}
         <div class="overlay">
-          {{ content.field_image }}
           <a{{ attributes }}>{{ content.field_link }}</a>
         </div>
       </div>
