@@ -7,6 +7,9 @@ global-styling:
       css/pages/home.css: {}
       css/pages/visualidentity.css: {}
       css/pages/ourstory.css: {}
+    paragraphs:
+      css/paragraphs/paragraph--card.css: {}
+      css/paragraphs/paragraph--cards.css: {}
     theme:
       css/style.css: {}
       css/print.css: {}
