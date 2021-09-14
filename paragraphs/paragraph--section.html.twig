@@ -59,6 +59,8 @@
         <div class="section-container" type="dark">
           <h1 class="h1-primary">{{ content.field_title }}</h1>
           <p class="p-primary">{{ content.field_content }}</p>
+          {{ dump(content.field_content) }}
+          {{ dump(content.field_dark_background) }}
         </div>
       {% endif %}
     {% endblock %}
