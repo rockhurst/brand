@@ -10,6 +10,7 @@ global-styling:
     paragraphs:
       css/paragraphs/paragraph--card.css: {}
       css/paragraphs/paragraph--cards.css: {}
+      css/paragraphs/paragraph--section.css: {}
     theme:
       css/style.css: {}
       css/print.css: {}
