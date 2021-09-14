@@ -51,7 +51,9 @@
     {% block content %}
       <h1>{{ content.field_title }}</h1>
       <p>{{ content.field_content }}</p>
-      {{ content.field_card }}
+      <div class="cards-container">
+        {{ content.field_card }}
+      </div>
     {% endblock %}
   </div>
 {% endblock paragraph %}
