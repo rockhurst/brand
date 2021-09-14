@@ -49,10 +49,18 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      <div class="section-container">
-        <h1 class="h1-secondary">{{ content.field_title }}</h1>
-        <p class="p-secondary">{{ content.field_content }}</p>
-      </div>
+      {% if content.field_dark_background == false %}
+        <div class="section-container" type="light">
+          <h1 class="h1-secondary">{{ content.field_title }}</h1>
+          <p class="p-secondary">{{ content.field_content }}</p>
+        </div>
+      {% endif %}
+      {% if content.field_dark_background == true %}
+        <div class="section-container" type="dark">
+          <h1 class="h1-primary">{{ content.field_title }}</h1>
+          <p class="p-primary">{{ content.field_content }}</p>
+        </div>
+      {% endif %}
     {% endblock %}
   </div>
 {% endblock paragraph %}
