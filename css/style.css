@@ -15,6 +15,13 @@
     color: white;
 }
 
+.h1-secondary {
+    font-family: 'FreightSansProBold';
+    font-size: 36px;
+    font-weight: 500;
+    color: #0058A6;
+}
+
 .h2-primary {
     font-family: 'FreightSansProBold';
     font-size: 32px;
@@ -33,6 +40,14 @@
     font-size: 18px;
     font-weight: 700;
     color: white;
+    letter-spacing: .04rem;
+}
+
+.p-secondary {
+    font-family: 'FreightSansProMedium', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0058A6;
     letter-spacing: .04rem;
 }
 
