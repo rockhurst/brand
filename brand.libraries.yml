@@ -11,6 +11,7 @@ global-styling:
       css/paragraphs/paragraph--card.css: {}
       css/paragraphs/paragraph--cards.css: {}
       css/paragraphs/paragraph--section.css: {}
+      css/paragraphs/paragraph--quote.css: {}
     theme:
       css/style.css: {}
       css/print.css: {}

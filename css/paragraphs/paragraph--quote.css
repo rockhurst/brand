@@ -1,0 +1,29 @@
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: #A2DCED;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.quote-image-container img {
+    object-fit: cover;
+    width: 352px;
+    height: 352px;
+    border-radius: 176px;
+    float: left;
+    margin-top: -62px;
+}
+
+.inner {
+    position: absolute;
+    border: 2px solid #0058A6;
+    border-radius: 176px;
+    width: 332px;
+    height: 332px;
+    margin: 8px;
+}
