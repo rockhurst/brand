@@ -2,6 +2,11 @@
     width: 160px;
     height: 160px;
 }
+    .image-container img {
+        width: 160px;
+        height: 160px;
+        margin: 0;
+    }
 
 .overlay {
     background: #00217A;
@@ -20,12 +25,6 @@
         margin: 0;
         transition: 0.5s;
     }
-
-.overlay img {
-    width: 160px;
-    height: 160px;
-    margin: 0;
-}
 
 .overlay a {
     position: absolute;
