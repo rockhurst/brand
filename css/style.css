@@ -13,6 +13,7 @@
     font-size: 36px;
     color: white;
     margin: 0;
+    line-height: 48px;
 }
 
 .h1-secondary {
@@ -20,6 +21,7 @@
     font-size: 36px;
     color: #0058A6;
     margin: 0;
+    line-height: 48px;
 }
 
 .h2-primary {
