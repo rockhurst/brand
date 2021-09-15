@@ -66,11 +66,13 @@
     }
 
 .container-primary {
+    position: relative;
     width: 100%;
     background: white;
 }
 
 .container-secondary {
+    position: relative;
     width: 100%;
     background: #003057;
 }
