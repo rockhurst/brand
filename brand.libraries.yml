@@ -12,6 +12,7 @@ global-styling:
       css/paragraphs/paragraph--cards.css: {}
       css/paragraphs/paragraph--section.css: {}
       css/paragraphs/paragraph--quote.css: {}
+      css/paragraphs/paragraph--hero.css: {}
     theme:
       css/style.css: {}
       css/print.css: {}
