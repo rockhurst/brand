@@ -1,10 +1,10 @@
 .navbar {
     background: #003057;
     height: 64px;
+    width: 100%;
     display: flex;
     font-size: 1rem;
     position: fixed;
-    top: 0;
     z-index: 999;
 }
 
