@@ -50,9 +50,11 @@
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
       {% if content.field_dark_background == false %}
-        <div class="section-container">
-          <h1 class="h1-secondary">{{ content.field_title }}</h1>
-          <p class="p-secondary">{{ content.field_content }}</p>
+        <div class="container-primary">
+          <div class="section-container">
+            <h1 class="h1-secondary">{{ content.field_title }}</h1>
+            <p class="p-secondary">{{ content.field_content }}</p>
+          </div>
         </div>
       {% endif %}
       {% if content.field_dark_background == true %}
