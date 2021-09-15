@@ -64,3 +64,8 @@
         color: #0058A6;
         transition: 0.5s;
     }
+
+.container-primary {
+    width: 100%;
+    background: white;
+}
