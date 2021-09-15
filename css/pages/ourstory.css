@@ -8,16 +8,6 @@
     height: 640px;
 }
 
-.overlay[type=thin] {
-    float: right;
-    background: #00217A;
-    opacity: 0.8;
-    width: 512px;
-    height: 384px;
-    margin-top: 128px;
-    margin-right: calc(50vw - 496px);
-}
-
 .our-story-text-container {
     position: absolute;
     width: 448px;
