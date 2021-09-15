@@ -49,7 +49,7 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {% if content.field_dark_background == false %}
+      {% if 'On' in content.field_dark_background[0] %}
         <div class="container-primary">
           <div class="section-container">
             <h1 class="h1-secondary">{{ content.field_title }}</h1>
@@ -57,7 +57,7 @@
           </div>
         </div>
       {% endif %}
-      {% if content.field_dark_background == true %}
+      {% if 'On' in content.field_dark_background[0] %}
         <div class="container-secondary">
           <div class="section-container">
             <h1 class="h1-primary">{{ content.field_title }}</h1>
