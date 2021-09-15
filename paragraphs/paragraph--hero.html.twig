@@ -52,8 +52,8 @@
       <div class="hero-container">
         {{ content.field_image }}
         {% if 'On' in content.field_vertical_overlay[0] %}
-          <div class="hero-overlay" type="wide"></div>
-          <div class="hero-text-container" type="wide">
+          <div class="hero-overlay" type="thin"></div>
+          <div class="hero-text-container" type="thin">
             <h1 class="h1-primary">{{ content.field_title }}</h1>
             <p class="p-primary">{{ content.field_content }}</p>
             {% if 'On' in content.field_button[0] %}
@@ -61,9 +61,9 @@
             {% endif %}
           </div>
         {% endif %}
-        {% if 'On' in content.field_vertical_overlay[0] %}
-          <div class="hero-overlay" type="thin"></div>
-          <div class="hero-text-container" type="thin">
+        {% if 'Off' in content.field_vertical_overlay[0] %}
+          <div class="hero-overlay" type="wide"></div>
+          <div class="hero-text-container" type="wide">
             <h1 class="h1-primary">{{ content.field_title }}</h1>
             <p class="p-primary">{{ content.field_content }}</p>
             {% if 'On' in content.field_button[0] %}
