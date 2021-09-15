@@ -49,7 +49,7 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {{ drupal_entity('block_content', content_block_id) }}
+      {{ content }}
     {% endblock %}
   </div>
 {% endblock paragraph %}
