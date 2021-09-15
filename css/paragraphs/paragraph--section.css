@@ -1,12 +1,11 @@
-.section-container[type=light] {
+.section-container {
     width: 668px;
     margin-left: calc(50vw - 334px);
     margin-top: 64px;
     text-align: left;
 }
 
-.section-container[type=dark] {
-    background: #003057;
+.section-container {
     width: 668px;
     margin-left: calc(50vw - 334px);
     margin-top: 64px;
