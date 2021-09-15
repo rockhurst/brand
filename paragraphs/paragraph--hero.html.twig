@@ -56,7 +56,7 @@
           <div class="hero-text-container" type="wide">
             <h1 class="h1-primary">{{ content.field_title }}</h1>
             <p class="p-primary">{{ content.field_content }}</p>
-            {% if content.field_button == true %}
+            {% if content.field_button %}
               <button class="btn-primary" style="margin-top: 8px;">{{ content.field_button_text }}</button>
             {% endif %}
           </div>
@@ -66,7 +66,7 @@
           <div class="hero-text-container" type="thin">
             <h1 class="h1-primary">{{ content.field_title }}</h1>
             <p class="p-primary">{{ content.field_content }}</p>
-            {% if content.field_button == true %}
+            {% if content.field_button %}
               <button class="btn-primary" style="margin-top: 8px;">{{ content.field_button_text }}</button>
             {% endif %}
           </div>
