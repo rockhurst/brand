@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: row;
     width: 768px;
-    margin-top: 16px;
-    margin-bottom: 64px;
+    margin-top: 0;
+    padding-bottom: 64px;
     margin-left: calc(50vw - 344px);
 }
