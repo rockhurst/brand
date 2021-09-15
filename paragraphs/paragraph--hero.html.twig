@@ -54,20 +54,20 @@
         {% if content.field_vertical_overlay == false %}
           <div class="hero-overlay" type="wide"></div>
           <div class="hero-text-container" type="wide">
-            <h1 class="h1-primary">Welcome to the Rockhurst University Brand Center.</h1>
-            <p class="p-primary">As a member of the Rockhurst community, you have an important role to play in telling the story of our brand. We're excited to tell that story with you.</p>
+            <h1 class="h1-primary">{{ content.field_title }}</h1>
+            <p class="p-primary">{{ content.field_content }}</p>
             {% if content.field_button == true %}
-              <button class="btn-primary" style="margin-top: 8px;">OUR STORY</button>
+              <button class="btn-primary" style="margin-top: 8px;">{{ content.field_button_text }}</button>
             {% endif %}
           </div>
         {% endif %}
         {% if content.field_vertical_overlay == true %}
           <div class="hero-overlay" type="thin"></div>
           <div class="hero-text-container" type="thin">
-            <h1 class="h1-primary">Welcome to the Rockhurst University Brand Center.</h1>
-            <p class="p-primary">As a member of the Rockhurst community, you have an important role to play in telling the story of our brand. We're excited to tell that story with you.</p>
+            <h1 class="h1-primary">{{ content.field_title }}</h1>
+            <p class="p-primary">{{ content.field_content }}</p>
             {% if content.field_button == true %}
-              <button class="btn-primary" style="margin-top: 8px;">OUR STORY</button>
+              <button class="btn-primary" style="margin-top: 8px;">{{ content.field_button_text }}</button>
             {% endif %}
           </div>
         {% endif %}
