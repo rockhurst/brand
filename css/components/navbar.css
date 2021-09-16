@@ -1,15 +1,16 @@
 .navbar {
-    background: #003057;
     height: 64px;
     width: 100%;
     display: flex;
     font-size: 1rem;
-    position: fixed;
+    position: relative;
     z-index: 999;
 }
 
 .navbar-container {
     display: flex;
+    position: fixed;
+    background: #003057;
     height: 64px;
     max-width: 1500px;
 }
