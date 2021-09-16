@@ -14,13 +14,11 @@
 
 }
 
-.quote-image-container img {
+.quote-container img {
     object-fit: cover;
     width: 352px;
     height: 352px;
     border-radius: 176px;
-    float: left;
-    margin-top: -62px;
 }
 
 .inner {
