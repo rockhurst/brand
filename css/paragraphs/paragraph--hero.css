@@ -1,6 +1,7 @@
 .hero-container {
     width: 100%;
     height: 640px;
+    display: flex;
 }
 
     .hero-container img {
@@ -11,7 +12,6 @@
     }
 
 .hero-overlay[type=wide] {
-    float: left;
     background: #00217A;
     opacity: 0.8;
     width: 100%;
@@ -20,13 +20,11 @@
 }
 
 .hero-overlay[type=thin] {
-    float: right;
     background: #00217A;
     opacity: 0.8;
     width: 512px;
     height: 384px;
     margin-top: 128px;
-    margin-right: calc(50vw - 496px);
 }
 
 .hero-text-container[type=wide] {

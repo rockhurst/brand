@@ -12,7 +12,7 @@
     position: fixed;
     background: #003057;
     height: 64px;
-    max-width: 1500px;
+    width: 100%;
 }
 
 .nav-branding {
