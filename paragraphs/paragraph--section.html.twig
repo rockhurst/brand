@@ -49,19 +49,19 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {% if node.field_dark_background.value %}
+      {% if content.field_boolean.value == 0 %}
         <div class="container-primary">
           <div class="section-container">
             <h1 class="h1-secondary">{{ content.field_title }}</h1>
-            <p class="p-secondary">{{ node.field_content.value }}</p>
+            <p class="p-secondary">{{ content.field_content.value }}</p>
           </div>
         </div>
       {% endif %}
-      {% if content.field_boolean.value == 0 %}
+      {% if content.field_boolean.value == 1 %}
         <div class="container-secondary">
           <div class="section-container">
             <h1 class="h1-primary">{{ content.field_title }}</h1>
-            <p class="p-primary">{{ node.field_content.value }}</p>
+            <p class="p-primary">{{ content.field_content.value }}</p>
           </div>
         </div>
       {% endif %}
