@@ -49,17 +49,11 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-    {% set section_body = paragraph.field_content.value %}
-    {% set body = {
-      '#type':   'processed_text',
-      '#text':    section_body,
-      '#format':  paragraph.field_content.format,
-    } %}
       {% if content.field_boolean.value == 0 %}
         <div class="container-primary">
           <div class="section-container">
             <h1 class="h1-secondary">{{ content.field_title }}</h1>
-            {{ body }}
+            {{ content.field_content }}
           </div>
         </div>
       {% endif %}
