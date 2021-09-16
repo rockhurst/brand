@@ -48,15 +48,17 @@
 %}
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
-    <div class="quote-container">
+    <div>
     {% block content %}
-      {% if content.field_image %}
-        <div class="quote-image-container>
-          {{ content.field_image }}
-          <div class="inner"></div>
-        </div>
-      {% endif %}
-      {{ content.field_content }}
+      <div class="quote-container">
+        {% if content.field_image %}
+          <div class="quote-image-container>
+            {{ content.field_image }}
+            <div class="inner"></div>
+          </div>
+        {% endif %}
+        {{ content.field_content }}
+      </div>
     {% endblock %}
     </div>
   </div>
