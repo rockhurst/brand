@@ -5,10 +5,9 @@
     align-items: center;
     width: 100vw;
     background: #A2DCED;
+    margin: 0;
     padding-top: 32px;
     padding-bottom: 64px;
-    margin-top: 128px;
-    margin-bottom: 128px;
 }
 
 .quote-image-container img {

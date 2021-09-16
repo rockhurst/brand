@@ -55,7 +55,7 @@
             {{ content.field_image }}
             <div class="inner"></div>
           </div>
-          <div>{{ content.field_content.value|raw }}</div>
+          {{ paragraph.field_content.value }}
         {% endif %}
       </div>
     {% endblock %}

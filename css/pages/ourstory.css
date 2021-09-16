@@ -38,16 +38,6 @@
     padding-bottom: 16px;
 }
 
-.quote-container {
-    text-align: left;
-    width: 100vw;
-    background: #A2DCED;
-    padding-top: 32px;
-    padding-bottom: 64px;
-    margin-top: 128px;
-    margin-bottom: 128px;
-}
-
 .quote-image {
     background-image: url('/sites/default/files/2021-09/FJG-ROCKHURST-3602.jpg');
     background-size: cover;
@@ -57,12 +47,4 @@
     float: left;
     margin-left: calc(50vw - 576px);
     margin-top: -62px;
-}
-
-.inner {
-    border: 2px solid #0058A6;
-    border-radius: 176px;
-    width: 332px;
-    height: 332px;
-    margin: 8px;
 }
