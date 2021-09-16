@@ -49,19 +49,19 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {% if 'On' in content.field_dark_background[0] %}
+      {% if 'TRUE' in content.field_dark_background.0 %}
         <div class="container-primary">
           <div class="section-container">
             <h1 class="h1-secondary">{{ content.field_title }}</h1>
-            <p class="p-secondary">{{ content.field_content }}</p>
+            <p class="p-secondary">{{ node.field_content.value }}</p>
           </div>
         </div>
       {% endif %}
-      {% if 'Off' in content.field_dark_background[0] %}
+      {% if 'FALSE' in content.field_dark_background.0 %}
         <div class="container-secondary">
           <div class="section-container">
             <h1 class="h1-primary">{{ content.field_title }}</h1>
-            <p class="p-primary">{{ content.field_content }}</p>
+            <p class="p-primary">{{ node.field_content.value }}</p>
           </div>
         </div>
       {% endif %}
