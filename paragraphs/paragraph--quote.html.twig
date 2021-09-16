@@ -48,9 +48,9 @@
 %}
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
-    <div>
+    <div class="quote-container">
     {% block content %}
-      <div class="quote-container">
+      <div>
         {% if content.field_image %}
           <div class="quote-image-container>
             {{ content.field_image }}
