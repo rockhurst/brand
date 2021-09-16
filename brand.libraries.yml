@@ -3,6 +3,9 @@ global-styling:
     components:
       css/components/navbar.css: {}
       css/components/footer.css: {}
+      css/components/ourvoice.css: {}
+      css/components/siteoverview.css: {}
+      css/components/tagline.css: {}
     pages:
       css/pages/home.css: {}
       css/pages/visualidentity.css: {}
