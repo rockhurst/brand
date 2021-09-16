@@ -10,6 +10,10 @@
     padding-bottom: 64px;
 }
 
+.quote-image-container {
+
+}
+
 .quote-image-container img {
     object-fit: cover;
     width: 352px;

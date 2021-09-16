@@ -50,7 +50,13 @@
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
       <div class="quote-container">
-          <h2 class="h2-primary">{{ content.field_body }}</h2>
+        {% if content.field_image %}
+          <div class="quote-image-container>
+            {{ content.field_image }}
+            <div class="inner"></div>
+          </div>
+          {{ content.field_content }}
+        {% endif %}
       </div>
     {% endblock %}
   </div>
