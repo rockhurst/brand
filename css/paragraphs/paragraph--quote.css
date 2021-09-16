@@ -1,17 +1,13 @@
 .quote-container {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    background: #A2DCED;
+    width: 960px;
     margin: 0;
+    margin-left: calc(50% - 480px);
+    gap: 32px;
     padding-top: 32px;
     padding-bottom: 64px;
-}
-
-.quote-image-container {
-
 }
 
 .quote-container img {
@@ -28,4 +24,5 @@
     width: 332px;
     height: 332px;
     margin: 8px;
+    margin-top: -348px;
 }
