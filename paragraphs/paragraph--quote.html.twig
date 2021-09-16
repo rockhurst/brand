@@ -51,7 +51,7 @@
     {% block content %}
       {% if content.field_image is empty %}
         <div class="quote-container">
-          {{ content.field_content }}
+          <div>{{ content.field_content.value|raw }}</div>
         </div>
       {% endif %}
       {% if content.field_image is not empty %}
