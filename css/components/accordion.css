@@ -17,7 +17,7 @@
         border-bottom: 1px solid #a4a7a9;
     }
 
-        .ckeditor-accordion-container > dl dt:active > a {
+        .ckeditor-accordion-container > dl dt.active > a {
             background: #77797A;
         }
 
