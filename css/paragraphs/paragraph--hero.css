@@ -11,6 +11,23 @@
         height: 100%;
     }
 
+    .hero-container h1 {
+        font-family: 'FreightSansProBold';
+        font-size: 36px;
+        color: white;
+        margin: 0;
+        line-height: 48px;
+    }
+
+    .hero-container p {
+        font-family: 'FreightSansProMedium';
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        letter-spacing: .04rem;
+        margin: 0;
+    }
+
 .hero-overlay[type=wide] {
     background: #00217A;
     opacity: 0.8;
