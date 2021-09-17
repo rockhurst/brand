@@ -9,12 +9,12 @@
 }
 
 .ckeditor-accordion-container > dl {
-    border: 1px solid #a4a7a9;
+    border: 1px solid #77797A;
 }
 
     .ckeditor-accordion-container > dl dt > a {
         background: #a4a7a9;
-        border-bottom: 1px solid #a4a7a9;
+        border-bottom: 1px solid #77797A;
         text-decoration: none;
         font-family: 'FreightSansProMedium';
         font-size: 18px;
