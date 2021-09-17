@@ -6,6 +6,7 @@ global-styling:
       css/components/ourvoice.css: {}
       css/components/siteoverview.css: {}
       css/components/tagline.css: {}
+      css/components/accordion.css: {}
     pages:
       css/pages/home.css: {}
       css/pages/visualidentity.css: {}

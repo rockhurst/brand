@@ -88,6 +88,13 @@
     background: white;
 }
 
+    .container-primary h2 {
+        font-family: 'FreightSansProBold';
+        font-size: 32px;
+        color: white;
+        margin: 0;
+    }
+
 .container-secondary {
     position: relative;
     width: 100%;
