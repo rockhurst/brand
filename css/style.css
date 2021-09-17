@@ -8,62 +8,6 @@
   src: url('/fonts/FreightSansProMedium-Regular.ttf');
 }
 
-.h1-primary {
-    font-family: 'FreightSansProBold';
-    font-size: 36px;
-    color: white;
-    margin: 0;
-    line-height: 48px;
-}
-
-.h1-secondary {
-    font-family: 'FreightSansProBold';
-    font-size: 36px;
-    color: #0058A6;
-    margin: 0;
-    line-height: 48px;
-}
-
-.h2-primary {
-    font-family: 'FreightSansProBold';
-    font-size: 32px;
-    color: white;
-    margin: 0;
-}
-
-.h2-secondary {
-    font-family: 'FreightSansProBold';
-    font-size: 32px;
-    color: #0058A6;
-    margin: 0;
-}
-
-.h3-primary {
-    font-family: 'FreightSansProBold';
-    font-size: 24px;
-    color: white;
-    margin: 0;
-}
-
-.p-primary {
-    font-family: 'FreightSansProMedium';
-    font-size: 18px;
-    font-weight: 500;
-    color: white;
-    letter-spacing: .04rem;
-    margin: 0;
-}
-
-.p-secondary {
-    font-family: 'FreightSansProMedium';
-    font-size: 18px;
-    font-weight: 500;
-    font-weight: 700;
-    color: #0058A6;
-    letter-spacing: .04rem;
-    margin: 0;
-}
-
 .btn-primary {
     width: 256px;
     height: 48px;
@@ -88,10 +32,35 @@
     background: white;
 }
 
+    .container-primary h1 {
+        font-family: 'FreightSansProBold';
+        font-size: 36px;
+        color: #0058A6;
+        margin: 0;
+        line-height: 48px;
+    }
+
     .container-primary h2 {
         font-family: 'FreightSansProBold';
         font-size: 32px;
-        color: white;
+        color: #0058A6;
+        margin: 0;
+    }
+
+    .container-primary h3 {
+        font-family: 'FreightSansProBold';
+        font-size: 24px;
+        color: #0058A6;
+        margin: 0;
+    }
+
+    .container-primary p {
+        font-family: 'FreightSansProMedium';
+        font-size: 18px;
+        font-weight: 500;
+        font-weight: 700;
+        color: #0058A6;
+        letter-spacing: .04rem;
         margin: 0;
     }
 
@@ -101,8 +70,72 @@
     background: #003057;
 }
 
+    .container-secondary h1 {
+        font-family: 'FreightSansProBold';
+        font-size: 36px;
+        color: white;
+        margin: 0;
+        line-height: 48px;
+    }
+
+    .container-secondary h2 {
+        font-family: 'FreightSansProBold';
+        font-size: 32px;
+        color: white;
+        margin: 0;
+    }
+
+    .container-secondary h3 {
+        font-family: 'FreightSansProBold';
+        font-size: 24px;
+        color: white;
+        margin: 0;
+    }
+
+    .container-secondary p {
+        font-family: 'FreightSansProMedium';
+        font-size: 18px;
+        font-weight: 500;
+        font-weight: 700;
+        color: white;
+        letter-spacing: .04rem;
+        margin: 0;
+    }
+
 .container-tertiary {
     position: relative;
     width: 100%;
     background: #A2DCED;
 }
+
+    .container-tertiary h1 {
+        font-family: 'FreightSansProBold';
+        font-size: 36px;
+        color: #0058A6;
+        margin: 0;
+        line-height: 48px;
+    }
+
+    .container-tertiary h2 {
+        font-family: 'FreightSansProBold';
+        font-size: 32px;
+        color: #0058A6;
+        margin: 0;
+    }
+
+    .container-tertiary h3 {
+        font-family: 'FreightSansProBold';
+        font-size: 24px;
+        color: #0058A6;
+        margin: 0;
+    }
+
+    .container-tertiary p {
+        font-family: 'FreightSansProMedium';
+        font-size: 18px;
+        font-weight: 500;
+        font-weight: 700;
+        color: #0058A6;
+        letter-spacing: .04rem;
+        margin: 0;
+    }
