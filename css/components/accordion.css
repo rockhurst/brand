@@ -9,22 +9,22 @@
 }
 
 .ckeditor-accordion-container > dl {
-    border: 1px solid #0091ea;
+    border: 1px solid #a4a7a9;
 }
 
-    .ckeditor-accordion-container > dl dt:active {
-        background: #77797A;
+    .ckeditor-accordion-container > dl dt > a {
+        background: #a4a7a9;
+        border-bottom: 1px solid #a4a7a9;
     }
-        
-        .ckeditor-accordion-container > dl dt > a {
-            background: #a4a7a9;
-            border-bottom: 1px solid #a4a7a9;
+
+        .ckeditor-accordion-container > dl dt:active > a {
+            background: #77797A;
         }
 
-            .ckeditor-accordion-container > dl dt > a:hover {
-                background: #929596;
-            }
+        .ckeditor-accordion-container > dl dt > a:hover {
+            background: #929596;
+        }
 
-            .ckeditor-accordion-container > dl dt > a:active {
-                background: #77797A;
-            }
+        .ckeditor-accordion-container > dl dt > a:active {
+            background: #77797A;
+        }
