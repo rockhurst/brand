@@ -48,6 +48,7 @@
 .p-primary {
     font-family: 'FreightSansProMedium';
     font-size: 18px;
+    font-weight: 500;
     color: white;
     letter-spacing: .04rem;
     margin: 0;
@@ -56,6 +57,7 @@
 .p-secondary {
     font-family: 'FreightSansProMedium';
     font-size: 18px;
+    font-weight: 500;
     font-weight: 700;
     color: #0058A6;
     letter-spacing: .04rem;
