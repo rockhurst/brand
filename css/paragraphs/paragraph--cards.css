@@ -1,8 +1,9 @@
 .cards-container {
     display: flex;
     flex-flow: row;
+    flex-wrap: wrap;
     width: 768px;
     margin-top: 0;
     padding-bottom: 64px;
-    margin-left: calc(50vw - 344px);
+    margin-left: calc(50vw - 384px);
 }
