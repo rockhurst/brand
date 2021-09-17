@@ -7,3 +7,15 @@
     padding-bottom: 32px;
     text-align: left;
 }
+
+.ckeditor-accordion-container > dl dt > a {
+    background: #a4a7a9;
+}
+
+    .ckeditor-accordion-container > dl dt > a:hover {
+        background: #929596;
+    }
+
+    .ckeditor-accordion-container > dl dt > a:active {
+        background: #77797A;
+    }
