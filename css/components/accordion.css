@@ -8,6 +8,12 @@
     text-align: left;
 }
 
+    .accordion-container p {
+        color: #77797A;
+        letter-spacing: 0;
+        font-weight: 500;
+    }
+
 .ckeditor-accordion-container > dl {
     border: 1px solid #77797A;
 }
@@ -36,10 +42,4 @@
 
     .ckeditor-accordion-container > dl dd {
         padding: 16px;
-    }
-
-    .ckeditor-accordion-container > dl dd > p {
-        color: #77797A;
-        letter-spacing: 0;
-        font-weight: 500;
     }
