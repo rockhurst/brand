@@ -9,9 +9,9 @@
 }
 
     .accordion-container p {
-        color: #77797A;
-        letter-spacing: 0;
-        font-weight: 500;
+        color: #77797A !important;
+        letter-spacing: 0 !important;
+        font-weight: 500 !important;
     }
 
 .ckeditor-accordion-container > dl {
