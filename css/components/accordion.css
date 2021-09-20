@@ -8,7 +8,7 @@
     text-align: left;
 }
 
-    .accordion-container p {
+    .accordion-container p, .accordion-container li {
         color: #77797A !important;
         letter-spacing: 0 !important;
         font-weight: 400 !important;
