@@ -37,3 +37,7 @@
     .ckeditor-accordion-container > dl dd {
         padding: 16px;
     }
+
+    .ckeditor-accordion-container > dl dd > p {
+        color: #77797A;
+    }
