@@ -40,4 +40,6 @@
 
     .ckeditor-accordion-container > dl dd > p {
         color: #77797A;
+        letter-spacing: 0;
+        font-weight: 500;
     }
