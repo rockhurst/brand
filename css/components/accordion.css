@@ -14,7 +14,7 @@
 
     .ckeditor-accordion-container > dl dt > a {
         background: #a4a7a9;
-        border-bottom: 1px solid #77797A;
+        border-bottom: 1px solid #A4A7A9;
         text-decoration: none;
         font-family: 'FreightSansProMedium';
         font-size: 18px;
@@ -33,3 +33,7 @@
         .ckeditor-accordion-container > dl dt > a:active {
             background: #77797A;
         }
+
+    .ckeditor-accordion-container > dl dd {
+        padding: 16px;
+    }
