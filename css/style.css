@@ -54,6 +54,13 @@
         margin: 0;
     }
 
+    .container-primary h4 {
+        font-family: 'FreightSansProBold';
+        font-size: 16px;
+        color: #0058A6;
+        margin: 0;
+    }
+
     .container-primary p {
         font-family: 'FreightSansProMedium';
         font-size: 18px;
@@ -92,6 +99,13 @@
         margin: 0;
     }
 
+    .container-primary h4 {
+        font-family: 'FreightSansProBold';
+        font-size: 16px;
+        color: white;
+        margin: 0;
+    }
+
     .container-secondary p {
         font-family: 'FreightSansProMedium';
         font-size: 18px;
@@ -126,6 +140,13 @@
     .container-tertiary h3 {
         font-family: 'FreightSansProBold';
         font-size: 24px;
+        color: #0058A6;
+        margin: 0;
+    }
+
+    .container-primary h4 {
+        font-family: 'FreightSansProBold';
+        font-size: 16px;
         color: #0058A6;
         margin: 0;
     }
