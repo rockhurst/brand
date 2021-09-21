@@ -19,6 +19,11 @@
         font-size: 18px !important;
     }
 
+    .accordion-container h4 {
+        font-size: 16px !important;
+        color: #77797A !important;
+    }
+
 .ckeditor-accordion-container > dl {
     border: 1px solid #77797A;
 }
