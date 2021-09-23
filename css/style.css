@@ -31,11 +31,6 @@
         transition: 0.5s;
     }
 
-        .btn-primary a:hover {
-            color: #0058A6;
-            transition: 0.5s;
-        }
-
 .container-primary {
     position: relative;
     width: 100%;
