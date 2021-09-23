@@ -13,9 +13,6 @@
     height: 48px;
     background: transparent;
     border: 4px solid white;
-    font-size: 28px;
-    font-weight: 500;
-    color: white;
     transition: 0.5s;
     cursor: pointer;
     margin-top: 32px !important;
@@ -23,9 +20,21 @@
 
     btn-primary:hover {
         background: white;
-        color: #0058A6;
         transition: 0.5s;
     }
+
+    .btn-primary a {
+        text-decoration: none;
+        font-size: 28px;
+        font-weight: 500;
+        color: white;
+        transition: 0.5s;
+    }
+
+        .btn-primary a:hover {
+            color: #0058A6;
+            transition: 0.5s;
+        }
 
 .container-primary {
     position: relative;
