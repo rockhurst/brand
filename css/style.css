@@ -18,6 +18,7 @@
     color: white;
     transition: 0.5s;
     cursor: pointer;
+    margin-top: 32px !important;
 }
 
     btn-primary:hover {
