@@ -51,7 +51,7 @@
     {% block content %}
       <div class="hero-container">
         {{ content.field_image }}
-        {% if  content.field_vertical_overlay.value == 1 %}
+        {% if  content.field_vertical_overlay.value == '1' %}
           <div class="hero-overlay" type="thin"></div>
           <div class="hero-text-container" type="thin">
             <h1 class="h1-primary">{{ content.field_title }}</h1>
