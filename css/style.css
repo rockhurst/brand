@@ -31,6 +31,27 @@
         transition: 0.5s;
     }
 
+.btn-secondary {
+    width: 256px;
+    height: 48px;
+    background: #0158a6;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+    btn-secondary:hover {
+        background: #003057;
+        transition: 0.5s;
+    }
+
+    .btn-secondary a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+        transition: 0.5s;
+    }
+
 .container-primary {
     position: relative;
     width: 100%;
