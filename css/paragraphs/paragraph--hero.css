@@ -65,6 +65,17 @@
     padding-bottom: 32px;
 }
 
+.hero-text-container[type=white] {
+    position: absolute;
+    width: 512px;
+    height: calc(100% - 32px);
+    padding: 16px;
+    margin-left: calc(50vw - 272px);
+    margin-top: 144px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .hero-text-container[type=thin] {
     position: absolute;
     width: 448px;
