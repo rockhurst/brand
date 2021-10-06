@@ -58,9 +58,6 @@
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .hero-text-container[type=thin] {
@@ -105,3 +102,8 @@
         letter-spacing: .04rem;
         margin: 0;
     }
+
+.hero-text-wrapper {
+    width: 348px;
+    margin-right: 48px;
+}
