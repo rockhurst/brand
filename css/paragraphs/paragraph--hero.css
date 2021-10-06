@@ -83,6 +83,8 @@
         color: #0058A6;
         margin: 0;
         line-height: 48px;
+        margin-top: 16px;
+        margin-bottom: 16px;
     }
 
     .hero-text-container[type=wide] p,  .hero-text-container[type=thin] p {
