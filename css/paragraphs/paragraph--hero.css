@@ -70,7 +70,7 @@
 }
 
     .hero-text-container[type=wide] h1, .hero-text-container[type=thin] h1 {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSansBold';
         font-size: 36px;
         color: white;
         margin: 0;
@@ -78,7 +78,7 @@
     }
 
     .hero-text-container[type=white] h1 {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSansBold';
         font-size: 36px;
         color: #0058A6;
         margin: 0;
@@ -86,7 +86,7 @@
     }
 
     .hero-text-container[type=wide] p,  .hero-text-container[type=thin] p {
-        font-family: 'OpenSans-Medium';
+        font-family: 'OpenSansRegular';
         font-size: 18px;
         font-weight: 500;
         color: white;
@@ -95,7 +95,7 @@
     }
 
     .hero-text-container[type=white] p {
-        font-family: 'OpenSans-Medium';
+        font-family: 'OpenSansRegular';
         font-size: 18px;
         font-weight: 500;
         color: #0058A6;

@@ -9,18 +9,18 @@
 }
 
 @font-face {
-  font-family: "OpenSans-Regular";
-  src: url('/fonts/OpenSans/OpenSans-Regular.ttf');
+  font-family: "OpenSansRegular";
+  src: url('/fonts/OpenSans/OpenSansRegular.ttf');
 }
 
 @font-face {
-  font-family: "OpenSans-Medium";
-  src: url('/fonts/OpenSans/OpenSans-Medium.ttf');
+  font-family: "OpenSansMedium";
+  src: url('/fonts/OpenSans/OpenSansMedium.ttf');
 }
 
 @font-face {
-  font-family: "OpenSans-Bold";
-  src: url('/fonts/OpenSans/OpenSans-Bold.ttf');
+  font-family: "OpenSansBold";
+  src: url('/fonts/OpenSans/OpenSansBold.ttf');
 }
 
 .btn-primary {
@@ -77,7 +77,7 @@
 }
 
     .container-primary h1 {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSansBold';
         font-size: 36px;
         color: #0058A6;
         margin: 0;
@@ -85,28 +85,28 @@
     }
 
     .container-primary h2 {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSansBold';
         font-size: 32px;
         color: #0058A6;
         margin: 0;
     }
 
     .container-primary h3 {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSansBold';
         font-size: 24px;
         color: #0058A6;
         margin: 0;
     }
 
     .container-primary h4 {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSansBold';
         font-size: 16px;
         color: #0058A6;
         margin: 0;
     }
 
     .container-primary p {
-        font-family: 'OpenSans-Medium';
+        font-family: 'OpenSansRegular';
         font-size: 18px;
         font-weight: 500;
         font-weight: 700;
@@ -122,7 +122,7 @@
 }
 
     .container-secondary h1 {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSansBold';
         font-size: 36px;
         color: white;
         margin: 0;
@@ -130,28 +130,28 @@
     }
 
     .container-secondary h2 {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSansBold';
         font-size: 32px;
         color: white;
         margin: 0;
     }
 
     .container-secondary h3 {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSansBold';
         font-size: 24px;
         color: white;
         margin: 0;
     }
 
     .container-primary h4 {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSansBold';
         font-size: 16px;
         color: white;
         margin: 0;
     }
 
     .container-secondary p {
-        font-family: 'OpenSans-Medium';
+        font-family: 'OpenSansRegular';
         font-size: 18px;
         font-weight: 500;
         font-weight: 700;
@@ -167,7 +167,7 @@
 }
 
     .container-tertiary h1 {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSansBold';
         font-size: 36px;
         color: #0058A6;
         margin: 0;
@@ -175,28 +175,28 @@
     }
 
     .container-tertiary h2 {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSansBold';
         font-size: 32px;
         color: #0058A6;
         margin: 0;
     }
 
     .container-tertiary h3 {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSansBold';
         font-size: 24px;
         color: #0058A6;
         margin: 0;
     }
 
     .container-primary h4 {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSansBold';
         font-size: 16px;
         color: #0058A6;
         margin: 0;
     }
 
     .container-tertiary p {
-        font-family: 'OpenSans-Medium';
+        font-family: 'OpenSansRegular';
         font-size: 18px;
         font-weight: 500;
         font-weight: 700;
