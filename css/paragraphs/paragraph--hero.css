@@ -12,9 +12,10 @@
     }
 
 .hero-container[type=white] {
-    width: 100%;
-    height: 640px;
+    width: 100vw;
+    height: 528px;
     display: flex;
+    background: #0158A6;
 }
 
     .hero-container[type=white] img {
