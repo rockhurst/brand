@@ -13,7 +13,9 @@
 
 .overlay-tile {
     background: white;
-    float: right;
-    margin-top: 50%;
+    position: absolute;
+    width: 224px;
+    margin-left: 16px;
+    margin-top: -128px;
     padding: 8px;
 }
