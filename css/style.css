@@ -23,6 +23,11 @@
   src: url('/fonts/OpenSans/OpenSansBold.ttf');
 }
 
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 .btn-primary {
     width: 256px;
     height: 48px;
