@@ -18,4 +18,17 @@
     margin-left: 16px;
     margin-top: -128px;
     padding: 8px;
+    text-align: right;
 }
+
+    .overlay-tile p {
+        color: #a4a7a9;
+        font-family: "OpenSansMedium"
+        font-size: 16px;
+    }
+
+    .overlay-tile a {
+        color: #0158a6;
+        font-family: "OpenSansMedium"
+        font-size: 20px;
+    }
