@@ -1,26 +1,7 @@
-.tile-container:first-child {
-    width: calc(75% - 8px);
+.tile-container {
+    width: 240px;
     height: 256px;
-}
-
-.tile-container:nth-child(2) {
-    width: calc(25% - 8px);
-    height: 256px;
-}
-
-.tile-container:nth-child(3) {
-    width: calc(33% - 8px);
-    height: 256px;
-}
-
-.tile-container:nth-child(4) {
-    width: calc(33% - 8px);
-    height: 256px;
-}
-
-.tile-container:nth-child(5) {
-    width: calc(33% - 8px);
-    height: 256px;
+    margin: 8px;
 }
 
     .tile-container img {
