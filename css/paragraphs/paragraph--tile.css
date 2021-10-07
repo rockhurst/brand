@@ -1,13 +1,13 @@
 .tile-container {
-    width: 240px;
+    width: 256px;
     height: 256px;
     margin: 8px;
 }
 
     .tile-container img {
         object-fit: cover;
-        width: 100%;
-        height: 100%;
+        width: 256px;
+        height: 256px;
         margin: 0;
     }
 

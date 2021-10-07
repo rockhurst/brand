@@ -52,7 +52,11 @@
       <div class="tile-container">
         {{ content.field_image }}
         <div class="overlay-tile">
-          <a{{ attributes }}>{{ content.field_link }}</a>
+          <a{{ attributes }}>
+            {{ content.field_content }}
+            {{ content.field_title }}
+            {{ content.field_link }}
+          </a>
         </div>
       </div>
     {% endblock %}
