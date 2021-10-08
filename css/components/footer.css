@@ -6,3 +6,7 @@
     text-align: left;
     margin-left: calc(50% - 376px);
 }
+
+footer-container-alternate {
+    height: 64px;
+}
