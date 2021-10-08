@@ -3,8 +3,10 @@
     justify-content: center;
     align-items: center;
     width: 960px;
+    height: 192px;
     margin: 0;
     margin-left: calc(50% - 480px);
+    margin-bottom: 64px;
     gap: 32px;
     padding-top: 32px;
     padding-bottom: 32px;
