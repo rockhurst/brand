@@ -15,10 +15,10 @@
     background: white;
     position: absolute;
     width: 224px;
-    margin-left: 16px;
+    margin-left: 0px;
     margin-top: -128px;
     padding: 8px;
-    text-align: right;
+    text-align: left;
 }
 
     .overlay-profile p {
