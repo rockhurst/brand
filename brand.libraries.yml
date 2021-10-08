@@ -19,8 +19,9 @@ global-styling:
       css/paragraphs/paragraph--hero.css: {}
       css/paragraphs/paragraph--tiles.css: {}
       css/paragraphs/paragraph--tile.css: {}
-      css/paragraphs/paragraph--profiles.css: { }
-      css/paragraphs/paragraph--profile.css: { }
+      css/paragraphs/paragraph--profiles.css: {}
+      css/paragraphs/paragraph--profile.css: {}
+      css/paragraphs/paragraph--header.css: {}
     theme:
       css/style.css: {}
       css/print.css: {}

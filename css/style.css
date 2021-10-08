@@ -109,11 +109,23 @@ body {
         margin: 0;
     }
 
+    .container-primary strong[type=bold] {
+        font-family: 'OpenSansBold';
+        font-size: 16px;
+        color: #003057;
+        margin: 0;
+    }
+
+    .container-primary strong[type=regular] {
+        font-family: 'OpenSansRegular';
+        font-size: 16px;
+        color: #003057;
+        margin: 0;
+    }
+
     .container-primary p {
         font-family: 'OpenSansRegular';
-        font-size: 18px;
-        font-weight: 500;
-        font-weight: 700;
+        font-size: 16px;
         color: #0058A6;
         letter-spacing: .04rem;
         margin: 0;

@@ -1,0 +1,12 @@
+.story-header-text-wrapper {
+    width: 896px;
+    margin-left: calc(100vw - 448px);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.story-header-img-wrapper img {
+    object-fit: cover;
+    width: 100vw
+    height: 512px;
+}
