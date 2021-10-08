@@ -21,7 +21,7 @@ global-styling:
       css/paragraphs/paragraph--tile.css: {}
       css/paragraphs/paragraph--profiles.css: {}
       css/paragraphs/paragraph--profile.css: {}
-      css/paragraphs/paragraph--header.css: {}
+      css/paragraphs/paragraph--story.css: {}
     theme:
       css/style.css: {}
       css/print.css: {}
