@@ -22,13 +22,14 @@
 }
 
     .overlay-tile p {
-        color: #a4a7a9;
-        font-family: "OpenSansMedium"
-        font-size: 16px;
+        color: #a4a7a9 !important;
+        font-family: "OpenSansRegular" !important;
+        font-size: 14px !important;
+        margin-bottom: 8px !important;
     }
 
     .overlay-tile a {
         color: #0158a6;
-        font-family: "OpenSansMedium"
-        font-size: 20px;
+        font-family: "OpenSansBold";
+        text-decoration: none;
     }
