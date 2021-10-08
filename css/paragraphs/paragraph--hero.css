@@ -65,7 +65,6 @@
 .hero-text-container[type=white] {
     position: absolute;
     width: 768px;
-    height: calc(100% - 32px);
     padding: 16px;
     margin-left: calc(50vw - 384px);
     margin-top: 144px;
