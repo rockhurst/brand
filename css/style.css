@@ -62,7 +62,7 @@ body {
 }
 
     btn-secondary:hover {
-        background: #003057;
+        background: #003057 !important;
         transition: 0.5s;
     }
 
