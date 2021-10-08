@@ -37,7 +37,7 @@ body {
     margin-top: 32px !important;
 }
 
-    btn-primary:hover {
+    .btn-primary:hover {
         background: white;
         transition: 0.5s;
     }
@@ -61,8 +61,8 @@ body {
     margin-top: 48px;
 }
 
-    btn-secondary:hover {
-        background: #003057 !important;
+    .btn-secondary:hover {
+        background: #003057;
         transition: 0.5s;
     }
 
