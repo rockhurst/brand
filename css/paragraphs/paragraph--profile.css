@@ -1,0 +1,35 @@
+.profile-container {
+    width: 256px;
+    height: 256px;
+    margin: 8px;
+}
+
+    .profile-container img {
+        object-fit: cover;
+        width: 256px;
+        height: 512px;
+        margin: 0;
+    }
+
+.overlay-profile {
+    background: white;
+    position: absolute;
+    width: 224px;
+    margin-left: 16px;
+    margin-top: -128px;
+    padding: 8px;
+    text-align: right;
+}
+
+    .overlay-profile p {
+        color: #a4a7a9 !important;
+        font-family: "OpenSansRegular" !important;
+        font-size: 14px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .overlay-profile a {
+        color: #0158a6;
+        font-family: "OpenSansBold";
+        text-decoration: none;
+    }

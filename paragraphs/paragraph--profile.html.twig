@@ -49,9 +49,13 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      <div class="container-primary">
-        <div class="cards-container">
-          {{ content.field_card }}
+      <div class="profile-container">
+        {{ content.field_image }}
+        <div class="overlay-profile">
+          <a{{ attributes }}>
+            {{ content.field_content }}
+            {{ content.field_link }}
+          </a>
         </div>
       </div>
     {% endblock %}
