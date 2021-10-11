@@ -34,7 +34,7 @@
     margin-left: 32px;
 }
 
-.story-image-wrapper[type=bottom] img {
+.story-image-wrapper[type=below] img {
     float: left;
     height: 256px;
     width: 100%;
