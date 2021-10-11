@@ -27,14 +27,17 @@
 
 .story-image-wrapper[type=right] img {
     float: right;
-    width: 512px;
-    height: 512px;
+    height: 256px;
+    width: auto;
     object-fit: cover;
+    margin-right: -32px;
+    margin-left: 32px;
 }
 
 .story-image-wrapper[type=bottom] img {
+    float: left;
+    height: 256px;
     width: 100%;
-    height: 512px;
     object-fit: cover;
 }
 

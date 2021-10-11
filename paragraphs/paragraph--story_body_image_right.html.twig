@@ -50,15 +50,15 @@
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
       <div class="story-body-container">
-        {{ content.field_content }}
         <div class="story-image-wrapper" type="right">
           {{ content.field_image }}
         </div>
         <div class="overlay-story">
-          <p class="caption-text-wrapper">
+          <div class="caption-text-wrapper">
             {{ content.field_caption }}
-          </p>
+          </div>
         </div>
+        {{ content.field_content }}
       </div>
     {% endblock %}
   </div>
