@@ -49,7 +49,7 @@
         font-size: 14px !important;
     }
 
-story-body-container {
+.story-body-container {
     width: 896px;
     margin-left: calc(50vw - 448px);
     text-align: left;
