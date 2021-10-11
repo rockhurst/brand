@@ -14,8 +14,8 @@
 
 .story-image-wrapper[type=left] img {
     float: left;
-    max-width: 384px;
-    height: auto;
+    height: 384px;
+    width: auto;
     object-fit: cover;
     margin-right: 32px;
     margin-left: -32px;
@@ -53,6 +53,7 @@ story-body-container {
     width: 896px;
     margin-left: calc(50vw - 448px);
     text-align: left;
+    min-height: 384px;
 }
 
     .story-body-container p {
