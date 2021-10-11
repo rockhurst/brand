@@ -1,3 +1,7 @@
+.story-header-container {
+    margin-bottom: 64px;
+}
+
 .story-header-text-wrapper {
     width: 896px;
     margin-left: calc(50vw - 448px);
@@ -46,17 +50,18 @@
     text-align: right;
 }
 
-    .overlay-story p {
-        color: #a4a7a9 !important;
-        font-family: "OpenSansRegular" !important;
-        font-size: 14px !important;
-    }
+.caption-text-wrapper {
+    color: #a4a7a9 !important;
+    font-family: "OpenSansRegular" !important;
+    font-size: 14px !important;
+}
 
 .story-body-container {
     width: 896px;
     margin-left: calc(50vw - 448px);
     text-align: left;
     min-height: 256px;
+    margin-bottom: 32px;
 }
 
     .story-body-container p {
