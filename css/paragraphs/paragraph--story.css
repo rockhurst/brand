@@ -14,8 +14,8 @@
 
 .story-image-wrapper[type=left] img {
     float: left;
-    width: 512px;
-    height: 512px;
+    max-width: 384px;
+    height: auto;
     object-fit: cover;
 }
 
