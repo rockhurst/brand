@@ -37,9 +37,12 @@
 .overlay-story {
     background: white;
     position: absolute;
-    width: 128px;
-    margin-top: -128px;
+    width: 224px;
+    margin-top: 160px;
+    box-shadow: 0 0 3px #e8e8e8;
+    border: 1px solid #e8e8e8;
     padding: 8px;
+    margin-left: 110px;
     text-align: right;
 }
 
