@@ -11,3 +11,23 @@
     width: 100vw;
     height: 512px;
 }
+
+.story-image-wrapper[type=left] img {
+    float: left;
+    width: 512px;
+    height: 512px;
+    object-fit: cover;
+}
+
+.story-image-wrapper[type=right] img {
+    float: right;
+    width: 512px;
+    height: 512px;
+    object-fit: cover;
+}
+
+.story-image-wrapper[type=bottom] img {
+    width: 100%;
+    height: 512px;
+    object-fit: cover;
+}
