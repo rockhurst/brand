@@ -103,6 +103,9 @@
     display: none;
     width: 100%;
     background: #0058A6;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -6px;
 }
 
 .dropdown-content[type=sections] {
@@ -110,6 +113,8 @@
     width: 300%;
     margin-left: -100%
     background: white;
+    position: absolute;
+    margin-top: 20px;
 }
 
 .dropdown-section {
@@ -168,4 +173,18 @@
 .nav-links:hover {
     color: #A2DCED;
     transition: all 0.5s ease-out;
+}
+
+#nav-button-1 {
+    position: absolute;
+}
+
+#nav-button-2 {
+    position: absolute;
+    margin-left: 236px;
+}
+
+#nav-button-3 {
+    position: absolute;
+    margin-left: 472px;
 }
