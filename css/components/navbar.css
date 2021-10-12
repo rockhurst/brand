@@ -15,6 +15,7 @@
     position: relative;
     z-index: 999;
     margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .navbar-container {
@@ -30,8 +31,8 @@
     position: fixed;
     background: #0158a6;
     height: 64px;
-    width: 768px;
-    margin-left: calc(50% - 384px);
+    width: 896px;
+    margin-left: calc(50% - 448px);
     margin-top: 64px;
 }
 
@@ -93,6 +94,9 @@
 
 .nav-menu--alternate {
     list-style-type: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .dropdown-content[type=issues] {
@@ -103,10 +107,6 @@
     display: none;
 }
 
-.nav-item--alternate {
-    display: inline;
-}
-
 .dropdown-section {
     list-style-type: none;
 }
@@ -114,6 +114,21 @@
 .nav-item {
     height: 32px;
 }
+
+.nav-item--alternate {
+    display: inline;
+}
+
+    .nav-item--alternate button {
+        width: 234.67px;
+        height: 100%;
+        background: transparent;
+        border: none;
+        border-right: 1px solid white;
+        font-family: "OpenSansRegular";
+        font-size: 16px;
+        color: white;
+    }
 
 .nav-links {
     color: #fff;
