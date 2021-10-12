@@ -100,13 +100,13 @@
 }
 
 .dropdown-content[type=issues] {
-    display: none;
+    display: block;
     width: 100%;
     background: #0058A6;
 }
 
 .dropdown-content[type=sections] {
-    display: none;
+    display: block;
     width: 300%;
     margin-left: -100%
     background: white;
