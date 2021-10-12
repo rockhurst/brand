@@ -7,6 +7,16 @@
     z-index: 999;
 }
 
+.navbar--alternate {
+    height: 192px;
+    width: 100%;
+    display: flex;
+    font-size: 1rem;
+    position: relative;
+    z-index: 999;
+    margin-top: 64px;
+}
+
 .navbar-container {
     display: flex;
     position: fixed;
@@ -20,7 +30,9 @@
     position: fixed;
     background: #0158a6;
     height: 64px;
-    width: 100%;
+    width: 768px;
+    margin-left: calc(50% - 384px);
+    margin-top: 64px;
 }
 
 .nav-branding {
@@ -31,22 +43,24 @@
 }
 
 .nav-branding--alternate {
-    background: #0058A6;
-    width: 256px;
-    height: 256px;
-    margin: 0;
+    background: #003057;
+    width: 192px;
+    height: 192px;
+    margin-top: -64px;
 }
 
     .nav-branding--alternate h1 {
         font-family: "OpenSansBold";
-        font-size: 48px;
+        font-size: 108px;
+        line-height: 108px;
         color: white;
         text-align: center;
+        margin: 0;
     }
 
     .nav-branding--alternate p {
         font-family: "OpenSansBold";
-        font-size: 22px;
+        font-size: 14px;
         color: white;
         text-align: center;
     }
@@ -56,6 +70,14 @@
     width: auto;
     margin-left: 128px;
     float: left;
+}
+
+.nav-logo--alternate {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    height: 192px;
 }
 
 .nav-menu {
