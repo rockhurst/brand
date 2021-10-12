@@ -100,13 +100,13 @@
 }
 
 .dropdown-content[type=issues] {
-    display: block;
+    display: none;
     width: 100%;
     background: #0058A6;
 }
 
 .dropdown-content[type=sections] {
-    display: block;
+    display: none;
     width: 300%;
     margin-left: -100%
     background: white;
@@ -144,13 +144,11 @@
         }
 
             .nav-item--alternate button:hover .dropdown-content[type=issues] {
-                background: #003057;
-                transition: 0.5s;
+                display: block;
             }
 
             .nav-item--alternate button:hover .dropdown-content[type=sections] {
-                background: #003057;
-                transition: 0.5s;
+                display: block;
             }
 
 .nav-links {
