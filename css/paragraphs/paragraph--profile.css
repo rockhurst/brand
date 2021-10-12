@@ -1,12 +1,12 @@
 .profile-container {
-    width: 256px;
-    height: 256px;
+    width: 288px;
+    height: 384px;
     margin: 8px;
 }
 
     .profile-container img {
         object-fit: cover;
-        width: 256px;
+        width: 288px;
         height: 384px;
         margin: 0;
     }
