@@ -101,10 +101,15 @@
 
 .dropdown-content[type=issues] {
     display: none;
+    width: 100%;
+    background: #0058A6;
 }
 
 .dropdown-content[type=sections] {
     display: none;
+    width: 300%;
+    margin-left: -100%
+    background: white;
 }
 
 .dropdown-section {
@@ -120,7 +125,7 @@
 }
 
     .nav-item--alternate button {
-        width: 234.67px;
+        width: 232px;
         height: 100%;
         background: transparent;
         border: none;
@@ -128,7 +133,24 @@
         font-family: "OpenSansRegular";
         font-size: 16px;
         color: white;
+        transition: 0.5s;
+        cursor: pointer;
     }
+
+        .nav-item--alternate button:hover {
+            background: #003057;
+            transition: 0.5s;
+        }
+
+            .nav-item--alternate button:hover .dropdown-content[type=issues] {
+                background: #003057;
+                transition: 0.5s;
+            }
+
+            .nav-item--alternate button:hover .dropdown-content[type=sections] {
+                background: #003057;
+                transition: 0.5s;
+            }
 
 .nav-links {
     color: #fff;
