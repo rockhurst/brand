@@ -2,9 +2,9 @@
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    width: 816px;
+    width: 912px;
     height: 400px;
     margin-top: 0;
     padding-bottom: 64px;
-    margin-left: calc(50vw - 408px);
+    margin-left: calc(50vw - 456px);
 }
