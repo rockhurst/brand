@@ -15,12 +15,41 @@
     width: 100%;
 }
 
+.navbar-container--alternate {
+    display: flex;
+    position: fixed;
+    background: #0158a6;
+    height: 64px;
+    width: 100%;
+}
+
 .nav-branding {
     background: #0058A6;
     width: 355px;
     height: 64px;
     margin: 0;
 }
+
+.nav-branding--alternate {
+    background: #0058A6;
+    width: 256px;
+    height: 256px;
+    margin: 0;
+}
+
+    .nav-branding--alternate h1 {
+        font-family: "OpenSansBold";
+        font-size: 48px;
+        color: white;
+        text-align: center;
+    }
+
+    .nav-branding--alternate p {
+        font-family: "OpenSansBold";
+        font-size: 22px;
+        color: white;
+        text-align: center;
+    }
 
 .nav-logo {
     height: 64px;
@@ -38,6 +67,26 @@
     width: 60vw;
     justify-content: end;
     margin-right: 2rem;
+}
+
+.nav-menu--alternate {
+    list-style-type: none;
+}
+
+.dropdown-content[type=issues] {
+    display: none;
+}
+
+.dropdown-content[type=sections] {
+    display: none;
+}
+
+.nav-item--alternate {
+    display: inline;
+}
+
+.dropdown-section {
+    list-style-type: none;
 }
 
 .nav-item {
