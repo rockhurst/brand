@@ -1,20 +1,20 @@
 .tile-container {
-    width: 256px;
-    height: 256px;
+    width: 288px;
+    height: 288px;
     margin: 8px;
 }
 
     .tile-container img {
         object-fit: cover;
-        width: 256px;
-        height: 256px;
+        width: 288px;
+        height: 288px;
         margin: 0;
     }
 
 .overlay-tile {
     background: white;
     position: absolute;
-    width: 224px;
+    width: 256px;
     margin-left: 16px;
     margin-top: -128px;
     padding: 8px;
