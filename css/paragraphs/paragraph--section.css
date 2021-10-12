@@ -9,8 +9,8 @@
 }
 
 .section-container[type=wide] {
-    width: 800px;
-    margin-left: calc(50vw - 400px);
+    width: 896px;
+    margin-left: calc(50vw - 448px);
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 32px;
