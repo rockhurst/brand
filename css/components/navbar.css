@@ -146,6 +146,12 @@
     .dropdown-content[type=sections] ul li {
         font-family: "OpenSansBold";
         font-size: 16px;
+        color: #0058A6;
+        padding: 16px;
+        text-align: left;
+    }
+
+    #dropdown-section-header {
         color: #a4a7a9;
     }
 
