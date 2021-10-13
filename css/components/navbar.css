@@ -28,7 +28,7 @@
 
 .navbar-container--alternate {
     display: flex;
-    position: fixed;
+    position: relative;
     background: #0158a6;
     height: 64px;
     width: 896px;
@@ -79,6 +79,7 @@
     justify-content: center;
     align-content: center;
     height: 192px;
+    text-decoration: none;
 }
 
 .nav-menu {
@@ -104,7 +105,7 @@
     width: 100%;
     background: #0058A6;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 21px;
     margin-left: -6px;
 }
 
@@ -131,7 +132,7 @@
 }
 
     .nav-item--alternate button {
-        width: 232px;
+        width: 236px;
         height: 100%;
         background: transparent;
         border: none;
@@ -187,4 +188,5 @@
 #nav-button-3 {
     position: absolute;
     margin-left: 472px;
+    width: 232px;
 }
