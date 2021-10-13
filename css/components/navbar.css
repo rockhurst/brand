@@ -111,12 +111,18 @@
 
 .dropdown-content[type=sections] {
     display: none;
-    width: 300%;
-    margin-left: -100%
+    width: 704px;
+    margin-left: -242px;
     background: white;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 21px;
 }
+
+    .dropdown-content[type=sections] ul li {
+        font-family: "OpenSansBold";
+        font-size: 16px;
+        color: #a4a7a9;
+    }
 
 .dropdown-section {
     list-style-type: none;
