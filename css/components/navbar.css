@@ -109,9 +109,29 @@
     margin-left: -6px;
 }
 
+    .dropdown-content[type=issues] ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .dropdown-content[type=issues] li {
+            line-height: 64px;
+            border-bottom: 1px solid white;
+            font-family: "OpenSansRegular";
+            font-size: 18px;
+            color: white;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+            .dropdown-content[type=issues] li:hover {
+                background: #003057;
+                transition: 0.5s;
+            }
+
 .dropdown-content[type=sections] {
     opacity: 0;
-    display: flex;
+    display: none;
     margin-left: -242px;
     background: white;
     position: absolute;
@@ -167,6 +187,7 @@
             }
 
             .nav-item--alternate button:hover .dropdown-content[type=sections] {
+                display: flex;
                 opacity: 1;
                 transition: 0.5s;
             }
