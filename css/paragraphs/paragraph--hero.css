@@ -25,6 +25,20 @@
         height: 512px;
     }
 
+.hero-container[type=white--feature] {
+    width: 100%;
+    height: 832px;
+    display: flex;
+    background: #0158A6;
+}
+
+    .hero-container[type=white--feature] img {
+        position: relative;
+        object-fit: cover;
+        width: 100vw;
+        height: 816px;
+    }
+
 .hero-overlay[type=wide] {
     background: #00217A;
     opacity: 0.8;
@@ -40,6 +54,15 @@
     width: 100%;
     height: 224px;
     margin-top: 144px;
+}
+
+.hero-overlay[type=white--feature] {
+    position: absolute;
+    background: #ECECED;
+    opacity: 0.8;
+    width: 100%;
+    height: 224px;
+    margin-top: 336px;
 }
 
 .hero-overlay[type=thin] {
@@ -68,6 +91,17 @@
     padding: 16px;
     margin-left: calc(50vw - 384px);
     margin-top: 144px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+}
+
+.hero-text-container[type=white--feature] {
+    position: absolute;
+    width: 768px;
+    padding: 16px;
+    margin-left: calc(50vw - 384px);
+    margin-top: 336px;
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
