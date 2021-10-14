@@ -39,6 +39,7 @@ body {
 
     .btn-primary:hover {
         background: white;
+        color: #0158a6;
         transition: 0.5s;
     }
 

@@ -116,7 +116,7 @@
 
         .dropdown-content[type=issues] li {
             line-height: 64px;
-            border-bottom: 1px solid white;
+            border-top: 1px solid white;
             font-family: "OpenSansRegular";
             font-size: 18px;
             color: white;
