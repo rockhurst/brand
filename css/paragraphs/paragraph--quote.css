@@ -13,7 +13,27 @@
     padding-bottom: 32px;
 }
 
+.quote-container--alternate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    height: 192px;
+    margin: 0;
+    margin-left: calc(50% - 480px);
+    gap: 32px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
 .quote-container img {
+    object-fit: cover;
+    width: 352px;
+    height: 352px;
+    border-radius: 176px;
+}
+
+.quote-container--alternate img {
     object-fit: cover;
     width: 352px;
     height: 352px;
