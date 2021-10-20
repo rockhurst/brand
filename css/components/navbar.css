@@ -151,6 +151,10 @@
         text-align: left;
     }
 
+    .dropdown-content[type=sections] ul li:hover {
+        text-decoration: underline;
+    }
+
     #dropdown-section-header {
         color: #a4a7a9;
     }
