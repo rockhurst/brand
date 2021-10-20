@@ -18,9 +18,12 @@
 .image-overlay-tile {
     position: absolute;
     background: #00217A;
-    opacity: 0.8;
+    opacity: 0.3;
     cursor: pointer;
     display: none;
+    width: 288px;
+    height: 288px;
+    margin-top: -292px;
 }
 
 .overlay-tile {

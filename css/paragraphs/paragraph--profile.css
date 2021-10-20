@@ -11,6 +11,21 @@
         margin: 0;
     }
 
+        .profile-container:hover .image-overlay-profile {
+            display: block;
+        }
+
+.image-overlay-profile {
+    position: absolute;
+    background: #00217A;
+    opacity: 0.3;
+    cursor: pointer;
+    display: none;
+    width: 288px;
+    height: 384px;
+    margin-top: -388px;
+}
+
 .overlay-profile {
     background: white;
     position: absolute;
