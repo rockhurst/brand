@@ -13,6 +13,7 @@
         letter-spacing: 0 !important;
         font-weight: 400 !important;
         font-size: 16px !important;
+        font-family: 'OpenSansRegular';
     }
 
     .accordion-container h3 {
