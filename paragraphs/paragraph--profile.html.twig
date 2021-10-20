@@ -50,14 +50,14 @@
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
       <div class="profile-container">
-        {{ content.field_image }}
-        <div class="image-overlay-profile"></div>
-        <div class="overlay-profile">
-          <a{{ attributes }}>
+        <a{{ attributes }}>
+          {{ content.field_image }}
+          <div class="image-overlay-profile"></div>
+          <div class="overlay-profile">
             {{ content.field_content }}
             {{ content.field_link }}
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     {% endblock %}
   </div>
