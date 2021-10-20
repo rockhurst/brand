@@ -11,7 +11,7 @@
         margin: 0;
     }
 
-        .tile-container img:hover .image-overlay-tile {
+        .tile-container:hover .image-overlay-tile {
             display: block;
         }
 
