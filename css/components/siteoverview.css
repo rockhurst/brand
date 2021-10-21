@@ -4,3 +4,22 @@
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
+@media only screen and (max-width: 420px) {
+    .site-container {
+        text-align: center;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .site-container h2 {
+        font-size: 26px !important;
+        margin-bottom: 16px !important;
+    }
+
+    .site-container p {
+        font-size: 18px !important;
+    }
+}

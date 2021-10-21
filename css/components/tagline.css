@@ -1,7 +1,20 @@
 .tagline-container {
-    text-align: center;
-    width: 100%;
-    height: 48px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+        text-align: center;
+        width: 100%;
+        height: 48px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+@media only screen and (max-width: 420px) {
+    .tagline-container {
+        text-align: center;
+        width: 100%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .tagline-container h1 {
+        display: block !important;
+    }
 }

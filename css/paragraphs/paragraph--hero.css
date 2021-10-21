@@ -156,3 +156,23 @@
     width: 576px;
     margin-right: 48px;
 }
+
+@media only screen and (max-width: 420px) {
+    .hero-container {
+        justify-content: center;
+    }
+
+    .hero-overlay[type=wide] {
+        height: 452px;
+        margin-top: 110px;
+    }
+
+    .hero-text-container[type=wide] {
+        position: absolute;
+        width: calc(100% - 16px);
+        height: 400px;
+        margin-left: 0px;
+        margin-top: 114px;
+        text-align: center;
+    }
+}

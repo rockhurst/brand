@@ -1,12 +1,22 @@
-.footer-container {
-    width: 688px;
-    height: 192px;
-    padding: 32px;
-    padding-bottom: 0px;
-    text-align: left;
-    margin-left: calc(50% - 376px);
-}
-
 footer-container-alternate {
     height: 128px;
+}
+
+@media only screen and (max-width: 752px) {
+    .footer-container {
+        padding: 32px;
+        text-align: left;
+        margin-left: calc(50% - 376px);
+    }
+}
+
+@media only screen and (min-width: 752px) {
+    .footer-container {
+        width: 688px;
+        height: 192px;
+        padding: 32px;
+        padding-bottom: 0px;
+        text-align: left;
+        margin-left: calc(50% - 376px);
+    }
 }

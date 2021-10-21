@@ -236,3 +236,13 @@
     width: 232px;
     border: none;
 }
+
+@media only screen and (max-width: 420px) {
+    .nav-branding {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+}
