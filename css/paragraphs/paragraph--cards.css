@@ -1,9 +1,23 @@
-.cards-container {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    width: 768px;
-    margin-top: 0;
-    padding-bottom: 64px;
-    margin-left: calc(50vw - 384px);
+@media only screen and (max-width: 420px) {
+    .cards-container {
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        width: 390px;
+        margin-top: 0;
+        padding-bottom: 64px;
+        margin-left: calc(50vw - 195px);
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .cards-container {
+        width: 768px;
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        margin-top: 0;
+        padding-bottom: 64px;
+        margin-left: calc(50vw - 384px);
+    }
 }

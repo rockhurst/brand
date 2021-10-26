@@ -1,11 +1,22 @@
-.section-container {
-    width: 768px;
-    margin-left: calc(50vw - 384px);
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    text-align: left;
+@media only screen and (max-width: 768px) {
+    .section-container {
+        padding: 32px;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .section-container {
+        width: 768px;
+        margin-left: calc(50vw - 384px);
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        text-align: left;
+    }
 }
 
 .section-container[type=wide] {

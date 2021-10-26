@@ -6,7 +6,6 @@ footer-container-alternate {
     .footer-container {
         padding: 32px;
         text-align: left;
-        margin-left: calc(50% - 376px);
     }
 }
 
