@@ -51,15 +51,13 @@
     <div class="container-tertiary">
       <div class="quote-container--alternate">
         {% block content %}
-          <div>
-            {% if content.field_image %}
-              <div class="quote-image-container">
-                {{ content.field_image }}
-                <div class="inner"></div>
-              </div>
-            {% endif %}
-            {{ content.field_content }}
-          </div>
+          {% if content.field_image %}
+            <div class="quote-image-container">
+              {{ content.field_image }}
+              <div class="inner"></div>
+            </div>
+          {% endif %}
+          {{ content.field_content }}
         {% endblock %}
       </div>
     </div>
