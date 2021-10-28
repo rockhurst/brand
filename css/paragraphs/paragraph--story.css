@@ -19,8 +19,8 @@
 
 .story-image-wrapper[type=left] img {
     float: left;
-    height: 256px;
-    width: auto;
+    height: 320px;
+    width: 288px;
     object-fit: cover;
     margin-right: 32px;
     margin-left: -64px;
@@ -28,8 +28,8 @@
 
 .story-image-wrapper[type=right] img {
     float: right;
-    height: 256px;
-    width: auto;
+    height: 320px;
+    width: 288px;
     object-fit: cover;
     margin-right: -64px;
     margin-left: 32px;
@@ -47,11 +47,11 @@
     background: white;
     position: absolute;
     width: 224px;
-    margin-top: 160px;
+    margin-top: 224px;
     box-shadow: 0 0 3px #e8e8e8;
     border: 1px solid #e8e8e8;
     padding: 8px;
-    margin-left: 78px;
+    margin-left: -16px;
     text-align: right;
 }
 
@@ -59,7 +59,7 @@
     background: white;
     position: absolute;
     width: 224px;
-    margin-top: 160px;
+    margin-top: 224px;
     box-shadow: 0 0 3px #e8e8e8;
     border: 1px solid #e8e8e8;
     padding: 8px;
