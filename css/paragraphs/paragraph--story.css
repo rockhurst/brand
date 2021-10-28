@@ -20,7 +20,8 @@
 .story-image-wrapper[type=left] img {
     float: left;
     height: 384px;
-    width: 288px;
+    min-width: 288px;
+    max-width: 512px;
     object-fit: cover;
     margin-right: 32px;
     margin-left: -64px;
@@ -29,7 +30,8 @@
 .story-image-wrapper[type=right] img {
     float: right;
     height: 384px;
-    width: 288px;
+    min-width: 288px;
+    max-width: 512px;
     object-fit: cover;
     margin-right: -64px;
     margin-left: 32px;
@@ -47,7 +49,7 @@
     background: white;
     position: absolute;
     width: 224px;
-    margin-top: 288px;
+    margin-top: 256px;
     box-shadow: 0 0 3px #e8e8e8;
     border: 1px solid #e8e8e8;
     padding: 8px;
@@ -59,7 +61,7 @@
     background: white;
     position: absolute;
     width: 224px;
-    margin-top: 288px;
+    margin-top: 256px;
     box-shadow: 0 0 3px #e8e8e8;
     border: 1px solid #e8e8e8;
     padding: 8px;
