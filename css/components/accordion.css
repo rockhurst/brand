@@ -1,4 +1,4 @@
-@media only screen and (min-width: 420px) {
+@media only screen and (max-width: 420px) {
     .accordion-container {
         width: 360px;
         margin-left: calc(50vw - 180px);
