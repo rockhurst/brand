@@ -250,19 +250,11 @@
         display: none;
     }
 
-    .nav-menu {
-        display: none;
-    }
-
     .nav-mobile-branding {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100vw;
-    }
-
-    .nav-mobile-menu-container {
-        display: none;
     }
 
     .nav-mobile-button {
