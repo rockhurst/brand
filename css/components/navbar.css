@@ -262,10 +262,16 @@
     }
 
     .nav-mobile-menu {
-        display: block;
+        display: flex;
+        align-items: center;
+        margin-right: 32px;
     }
 
     .navbar-container {
         background: #0158a6;
+    }
+
+    .nav-logo {
+        margin-left: 32px;
     }
 }
