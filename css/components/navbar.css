@@ -250,11 +250,19 @@
         display: none;
     }
 
+    .nav-menu {
+        display: none;
+    }
+
     .nav-mobile-branding {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100vw;
+    }
+
+    .nav-mobile-menu-container {
+        display: none;
     }
 
     .nav-mobile-button {
@@ -270,7 +278,7 @@
         margin-top: 11px;
     }
 
-        .nav-mobile-button:focus > .nav-mobile-menu-container {
+        .nav-mobile-button:focus .nav-mobile-menu-container {
             display: block;
             width: 100vw;
             height: 100vh;
