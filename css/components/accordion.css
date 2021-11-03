@@ -1,7 +1,7 @@
 @media only screen and (max-width: 420px) {
     .accordion-container {
-        width: 360px;
-        margin-left: calc(50vw - 180px);
+        width: 90vw;
+        margin-left: 5vw;
         margin-top: 0;
         margin-bottom: 0;
         padding-top: 32px;
