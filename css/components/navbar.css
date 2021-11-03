@@ -261,17 +261,31 @@
         width: 100vw;
     }
 
-    .nav-mobile-menu {
+    .nav-mobile-menu-container {
+        display: none;
+    }
+
+    .nav-mobile-button {
         display: flex;
         align-items: center;
-        margin-right: 32px;
+        justify-content: center;
+        margin-right: 16px;
+        background: #003057;
+        width: 48px;
+        height: 42px;
+        border-radius: 8px;
+        margin-top: 11px;
     }
+
+        .nav-mobile-button:focus > .nav-mobile-menu-container {
+            display: block;
+        }
 
     .navbar-container {
         background: #0158a6;
     }
 
     .nav-logo {
-        margin-left: 32px;
+        margin-left: 16px;
     }
 }
