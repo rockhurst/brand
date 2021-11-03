@@ -27,7 +27,7 @@ body {
     margin: 0 !important;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 768px) {
     #toolbar-item-administration-tray {
         display: none;
     }
