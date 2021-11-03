@@ -266,7 +266,7 @@
     }
 
     .nav-mobile-button {
-        display: flex;
+        display: block;
         align-items: center;
         justify-content: center;
         margin-right: 16px;
@@ -280,11 +280,22 @@
 
         .nav-mobile-button:focus .nav-mobile-menu-container {
             display: block;
-            width: 100vw;
-            height: 100vh;
+            width: calc(100vw - 64px);
+            height: calc(100vh - 64px);
+            margin-left: calc(-100vw + 52px);
+            margin-top: -43px;
             position: absolute;
-            background: white;
+            background: #0158a6;
+            padding: 32px;
         }
+
+            .nav-mobile-button:focus .nav-mobile-menu-container .nav-mobile-menu {
+                display: block;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
 
     .navbar-container {
         background: #0158a6;
@@ -292,5 +303,17 @@
 
     .nav-logo {
         margin-left: 16px;
+    }
+
+    .nav-links {
+        line-height: 36px;
+        font-size: 18px;
+    }
+
+    .nav-item {
+        height: 48px;
+        display: block;
+        border-bottom: 1px solid white;
+        width: 100%;
     }
 }
