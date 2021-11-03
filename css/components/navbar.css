@@ -273,12 +273,17 @@
         background: #003057;
         width: 48px;
         height: 42px;
+        border: none;
         border-radius: 8px;
         margin-top: 11px;
     }
 
         .nav-mobile-button:focus > .nav-mobile-menu-container {
             display: block;
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            background: white;
         }
 
     .navbar-container {
