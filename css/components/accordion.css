@@ -1,11 +1,25 @@
-.accordion-container {
-    width: 768px;
-    margin-left: calc(50vw - 384px);
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    text-align: left;
+@media only screen and (min-width: 420px) {
+    .accordion-container {
+        width: 360px;
+        margin-left: calc(50vw - 180px);
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .accordion-container {
+        width: 768px;
+        margin-left: calc(50vw - 384px);
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        text-align: left;
+    }
 }
 
     .accordion-container p, .accordion-container li {
