@@ -237,6 +237,14 @@
     border: none;
 }
 
+.nav-mobile-branding {
+    display: none;
+}
+
+.nav-mobile-menu {
+    display: none;
+}
+
 @media only screen and (max-width: 420px) {
     .nav-branding {
         display: none;
@@ -244,5 +252,24 @@
 
     .nav-menu {
         display: none;
+    }
+
+    .nav-mobile-branding {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .nav-mobile-menu {
+        display: block;
+    }
+
+    .navbar-container {
+        display: flex;
+        position: fixed;
+        background: #0158a6;
+        height: 128px;
+        width: 100%;
     }
 }
