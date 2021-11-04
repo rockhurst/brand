@@ -1,0 +1,20 @@
+.contextual-region .contextual region {
+    position: relative;
+    width: 896px;
+    margin-left: calc(50vw - 448px);
+    text-align: left;
+    margin-bottom: 32px;
+    min-height: 384px;
+    display: flex;
+}
+
+.contextual-region h2 {
+    font-family: 'OpenSansBold';
+    font-size: 36px;
+    color: #0058A6;
+    margin: 0;
+    line-height: 48px;
+    width: 896px;
+    margin-left: calc(50vw - 444px);
+    margin-bottom: 32px;
+}
