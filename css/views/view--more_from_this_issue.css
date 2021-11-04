@@ -1,4 +1,4 @@
-.contextual-region .contextual region {
+.contextual region .contextual-region {
     position: relative;
     width: 896px;
     margin-left: calc(50vw - 448px);
