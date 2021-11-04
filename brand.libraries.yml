@@ -12,7 +12,7 @@ global-styling:
       css/pages/visualidentity.css: {}
       css/pages/ourstory.css: {}
     views:
-      css/vies/view--more_from_this_issue.css: {}
+      css/views/view--more_from_this_issue.css: {}
     paragraphs:
       css/paragraphs/paragraph--card.css: {}
       css/paragraphs/paragraph--cards.css: {}
