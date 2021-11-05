@@ -1,6 +1,6 @@
 .contextual-region .contextual-region {
     position: relative;
-    width: 896px;
+    width: 912px;
     margin-left: calc(50vw - 448px);
     text-align: left;
     margin-bottom: 32px;
@@ -8,21 +8,25 @@
     display: flex;
 }
 
-.contextual-region h2 {
-    font-family: 'OpenSansBold';
-    font-size: 36px;
-    color: #0058A6;
-    margin: 0;
-    line-height: 48px;
-    width: 896px;
-    margin-left: calc(50vw - 444px);
-    margin-bottom: 32px;
-}
+    .contextual-region h2 {
+        font-family: 'OpenSansBold';
+        font-size: 36px;
+        color: #0058A6;
+        margin: 0;
+        line-height: 48px;
+        width: 896px;
+        margin-left: calc(50vw - 444px);
+        margin-bottom: 32px;
+    }
 
-#block-views-magazine-issue-fall-2021 {
+    .contextual-region nav {
+        display: none;
+    }
+
+#block-views-block-magazine-issue-fall-2021 {
     padding-top: 320px;
 }
 
-#block-views-magazine-issue-fall-2021-rock-report {
+#block-views-block-magazine-issue-fall-2021-rock-report {
     padding-top: 320px;
 }
