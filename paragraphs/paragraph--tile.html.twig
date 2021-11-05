@@ -53,8 +53,8 @@
         {{ content.field_image }}
         <div class="image-overlay-tile"></div>
         <div class="overlay-tile">
-          {{ content.field_story_category }}
           <a{{ attributes }}>
+            {{ node.field_story_category.value }}
             {{ content.field_link }}
           </a>
         </div>
