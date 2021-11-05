@@ -11,6 +11,16 @@
     text-align: center;
 }
 
+    .story-header-text-wrapper strong[type=regular] a {
+        color: #003057;
+        text-decoration: none;
+    }
+
+    .story-header-text-wrapper strong[type=bold] a {
+        color: #003057;
+        text-decoration: none;
+    }
+
 .story-header-img-wrapper img {
     object-fit: cover;
     width: 100vw;
@@ -98,14 +108,4 @@
         font-size: 14px;
         color: #003057;
         margin: 0;
-    }
-
-    .story-body-container strong[type=regular] a {
-        color: #003057;
-        text-decoration: none;
-    }
-
-    .story-body-container strong[type=bold] a {
-        color: #003057;
-        text-decoration: none;
     }
