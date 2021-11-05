@@ -99,3 +99,13 @@
         color: #003057;
         margin: 0;
     }
+
+    .story-body-container strong[type=regular] a {
+        color: #003057;
+        text-decoration: none;
+    }
+
+    .story-body-container strong[type=bold] a {
+        color: #003057;
+        text-decoration: none;
+    }
