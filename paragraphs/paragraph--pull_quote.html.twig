@@ -50,8 +50,12 @@
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
       <div class="story-body-container">
-        <h2>"{{ content.field_content }}"</h2>
-        <p>&mdash;{{ content.field_speaker }}</p>
+        <div>
+          <h2>"{{ content.field_content }}"</h2>
+        </div>
+        <div>
+          <p>&mdash;{{ content.field_speaker }}</p>
+        </div>
       </div>
     {% endblock %}
   </div>
