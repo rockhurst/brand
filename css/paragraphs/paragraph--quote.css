@@ -98,6 +98,7 @@
     margin-left: calc(50vw - 448px);
     text-align: left;
     margin-bottom: 32px;
+    display: flex;
 }
 
     .pull-quote-container p {
@@ -112,5 +113,15 @@
         font-size: 32px;
         color: #0058A6;
         margin: 0;
-        margin-bottom: 32px;
+        margin-bottom: 16px;
     }
+
+.pull-quote-text-wrapper {
+    width: calc(100% - 40px);
+    margin-left: 16px;
+}
+
+.pull-quote-divider {
+    width: 24px;
+    background: #0058A6;
+}
