@@ -109,3 +109,19 @@
         color: #003057;
         margin: 0;
     }
+
+    .story-body-container h2 {
+        font-family: 'OpenSansBold';
+        font-size: 32px;
+        color: #0058A6;
+        margin: 0;
+        line-height: 42px;
+        margin-bottom: 32px;
+    }
+
+    .story-body-container h3 {
+        font-family: 'OpenSansBold';
+        font-size: 24px;
+        color: #0058A6;
+        margin: 0;
+    }
