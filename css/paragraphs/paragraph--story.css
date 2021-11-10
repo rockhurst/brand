@@ -101,7 +101,6 @@
     margin-left: calc(50vw - 448px);
     text-align: left;
     margin-bottom: 32px;
-    min-height: 384px;
 }
 
     .story-body-container p {
@@ -131,6 +130,7 @@
     margin-left: calc(50vw - 448px);
     text-align: left;
     margin-bottom: 32px;
+    min-height: 384px;
 }
 
     .story-body-container[type=image] p {
