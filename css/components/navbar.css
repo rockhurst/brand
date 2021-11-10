@@ -129,6 +129,11 @@
                 transition: 0.5s;
             }
 
+        .dropdown-content[type=issues] li a {
+            color: white;
+            text-decoration: none;
+        }
+
 .dropdown-content[type=sections] {
     opacity: 0;
     display: none;
