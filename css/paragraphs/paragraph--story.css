@@ -125,3 +125,32 @@
         color: #0058A6;
         margin: 0;
     }
+
+.story-body-container[type=image] {
+    width: 896px;
+    margin-left: calc(50vw - 448px);
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+    .story-body-container[type=image] p {
+        font-family: 'OpenSansRegular';
+        font-size: 14px;
+        color: #003057;
+        margin: 0;
+    }
+
+    .story-body-container[type=image] h2 {
+        font-family: 'OpenSansBold';
+        font-size: 32px;
+        color: #0058A6;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+
+    .story-body-container[type=image] h3 {
+        font-family: 'OpenSansBold';
+        font-size: 24px;
+        color: #0058A6;
+        margin: 0;
+    }
