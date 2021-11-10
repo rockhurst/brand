@@ -161,7 +161,7 @@
     }
 
     #dropdown-section-header {
-        color: #a4a7a9;
+        color: #a4a7a9 !important;
     }
 
 .dropdown-section {
@@ -169,6 +169,16 @@
     width: 220px;
     padding: 0;
 }
+
+    .dropdown-section li a {
+        text-decoration: none;
+        color: #0058A6;
+    }
+
+        .dropdown-section li a:visited {
+            text-decoration: none;
+            color: #0058A6;
+        }
 
 .nav-item {
     height: 32px;
