@@ -144,6 +144,9 @@
     }
 
     .hero-text-container[type=white] a, .hero-text-container[type=white--feature] a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 192px;
         height: 64px;
         background: #0158a6;
@@ -153,6 +156,7 @@
         box-shadow: 0 0 5px #6b879b;
         margin-top: 48px;
         text-decoration: none;
+        font-family: "OpenSansBold";
         font-size: 16px;
         font-weight: 700;
         color: white;
