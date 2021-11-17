@@ -1,15 +1,17 @@
-.more_from_this_issue {
+.views-element-container {
     position: relative;
     width: 912px;
     margin-left: calc(50vw - 448px);
     text-align: left;
     margin-bottom: 32px;
     min-height: 384px;
-    display: flex;
-    flex-wrap: wrap;
 }
+    .views-element-container > div > div {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-    .more_from_this_issue h2 {
+    .views-element-container h2 {
         font-family: 'OpenSansBold';
         font-size: 36px;
         color: #0058A6;
