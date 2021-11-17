@@ -1,4 +1,4 @@
-.views-element-container div div {
+.more_from_this_issue {
     position: relative;
     width: 912px;
     margin-left: calc(50vw - 448px);
@@ -9,7 +9,7 @@
     flex-wrap: wrap;
 }
 
-    .views-element-container h2 {
+    .more_from_this_issue h2 {
         font-family: 'OpenSansBold';
         font-size: 36px;
         color: #0058A6;
@@ -20,7 +20,7 @@
         margin-bottom: 32px;
     }
 
-    .contextual-region nav {
+    .more_from_this_issue nav {
         display: none;
     }
 
