@@ -1,4 +1,4 @@
-.contextual-region .contextual-region {
+.views-element-container {
     position: relative;
     width: 912px;
     margin-left: calc(50vw - 448px);
@@ -9,7 +9,7 @@
     flex-wrap: wrap;
 }
 
-    .contextual-region h2 {
+    .views-element-container h2 {
         font-family: 'OpenSansBold';
         font-size: 36px;
         color: #0058A6;
