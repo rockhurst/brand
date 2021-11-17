@@ -143,6 +143,27 @@
         margin: 0;
     }
 
+    .hero-text-container[type=white] a, .hero-text-container[type=white--feature] a {
+        width: 192px;
+        height: 64px;
+        background: #0158a6;
+        transition: 0.5s;
+        cursor: pointer;
+        border: none;
+        box-shadow: 0 0 5px #6b879b;
+        margin-top: 48px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+        transition: 0.5s;
+    }
+
+        .hero-text-container[type=white] a:hover, .hero-text-container[type=white--feature] a:hover {
+            background: #003057;
+            transition: 0.5s;
+        }
+
 .hero-text-wrapper {
     width: 576px;
     margin-right: 48px;
