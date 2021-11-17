@@ -17,8 +17,7 @@
         color: #0058A6;
         margin: 0;
         line-height: 48px;
-        width: 896px;
-        margin-left: calc(50vw - 444px);
+        text-align: left;
         margin-bottom: 32px;
     }
 
