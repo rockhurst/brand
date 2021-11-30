@@ -166,7 +166,7 @@
         margin-left: 0;
     }
 
-    .story-body-container, story-body-container[type=image] {
+    .story-body-container, .story-body-container[type=image] {
         width: calc(100% - 32px);
         text-align: left;
         margin-bottom: 32px;
@@ -175,7 +175,7 @@
         margin-left: 0;
     }
 
-    .story-image-wrapper[type=left] img, .story-img-wrapper[type=right] img {
+    .story-image-wrapper[type=left] img, .story-image-wrapper[type=right] img {
         height: 384px;
         width: 288px;
         object-fit: cover;
@@ -203,7 +203,7 @@
         box-shadow: 0 0 3px #e8e8e8;
         border: 1px solid #e8e8e8;
         padding: 8px;
-        margin-left: calc(100% - 224px);
+        margin-left: calc(50% - 86px);
         text-align: right;
     }
 }
