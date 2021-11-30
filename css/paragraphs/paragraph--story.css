@@ -163,6 +163,7 @@
         padding-left: 16px;
         padding-right: 16px;
         text-align: center;
+        margin-left: 0;
     }
 
     .story-body-container, story-body-container[type=image] {
@@ -171,6 +172,7 @@
         margin-bottom: 32px;
         padding-left: 16px;
         padding-right: 16px;
+        margin-left: 0;
     }
 
     .story-image-wrapper[type=left] img, .story-img-wrapper[type=right] img {
