@@ -299,7 +299,7 @@
             cursor: pointer;
         }
 
-        .nav-mobile-button:focus, .nav-mobile-button:hover, .nav-mobile-button:active .nav-mobile-menu-container {
+        .nav-mobile-button:focus, .nav-mobile-button:hover .nav-mobile-menu-container {
             display: block;
             width: calc(100% - 64px);
             height: calc(100vh - 48px);
