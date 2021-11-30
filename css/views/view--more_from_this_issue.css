@@ -6,6 +6,7 @@
     margin-bottom: 32px;
     min-height: 384px;
 }
+
     .views-element-container > div > div {
         display: flex;
         flex-wrap: wrap;
@@ -47,4 +48,15 @@
 
 #block-views-block-magazine-issue-fall-2021-rock-report-athletic {
     padding-top: 320px;
+}
+
+@media only screen and (max-width: 420px) {
+    .views-element-container {
+        position: relative;
+        width: 304px;
+        padding: calc(50% - 152px);
+        text-align: left;
+        margin-bottom: 32px;
+        min-height: 384px;
+    }
 }
