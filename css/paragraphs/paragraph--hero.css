@@ -241,6 +241,19 @@
     .hero-text-container[type=white] {
         position: absolute;
         padding: 16px;
+        margin-top: 144px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        width: calc(100% - 32px);
+        justify-content: center;
+    }
+
+    .hero-text-container[type=white--feature] {
+        position: absolute;
+        padding: 16px;
         margin-top: 336px;
         padding-top: 32px;
         padding-bottom: 32px;
