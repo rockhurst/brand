@@ -55,6 +55,7 @@
         position: relative;
         width: 304px;
         padding: calc(50% - 152px);
+        margin-left: 0;
         text-align: left;
         margin-bottom: 32px;
         min-height: 384px;
