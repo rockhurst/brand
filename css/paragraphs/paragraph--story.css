@@ -207,4 +207,9 @@
         margin-left: calc(50% - 86px);
         text-align: right;
     }
+
+        .story-header-container {
+        padding-top: 0;
+        margin-bottom: 64px;
+    }
 }

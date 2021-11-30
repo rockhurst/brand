@@ -225,7 +225,7 @@
         opacity: 0.8;
         width: 100%;
         height: 440px;
-        margin-top: 288px;
+        margin-top: 0;
         align-items: center;
     }
 
@@ -255,7 +255,7 @@
     .hero-text-container[type=white--feature] {
         position: absolute;
         padding: 16px;
-        margin-top: 288px;
+        margin-top: 0;
         margin-left: 0;
         padding-top: 32px;
         padding-bottom: 32px;
@@ -288,5 +288,14 @@
     .hero-text-wrapper {
         width: 100%;
         margin-right: 0px;
+    }
+
+    .hero-container[type=white--feature] {
+        width: 100%;
+        height: 512px;
+        display: flex;
+        background: #0158A6;
+        align-items: center;
+        justify-content: center;
     }
 }
