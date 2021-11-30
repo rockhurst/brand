@@ -273,7 +273,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100vw;
+        width: calc(100vw - 64px);;
     }
 
     .nav-mobile-menu-container {
@@ -292,7 +292,7 @@
         height: 42px;
         border: none;
         border-radius: 8px;
-        margin-top: 11px;
+        margin-top: 0;
     }
 
         .nav-mobile-button a {
