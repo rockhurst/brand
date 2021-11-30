@@ -176,7 +176,7 @@
     }
 
     .story-image-wrapper[type=left] img, .story-image-wrapper[type=right] img {
-        float: none;
+        float: none !important;
         height: 384px;
         width: 288px;
         object-fit: cover;
