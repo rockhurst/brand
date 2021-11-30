@@ -273,7 +273,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: calc(100vw - 64px);;
+        width: calc(100vw - 64px);
     }
 
     .nav-mobile-menu-container {
@@ -292,19 +292,19 @@
         height: 42px;
         border: none;
         border-radius: 8px;
-        margin-top: 0;
+        margin-top: 11px;
     }
 
         .nav-mobile-button a {
             cursor: pointer;
         }
 
-        .nav-mobile-button:focus, .nav-mobile-button:hover .nav-mobile-menu-container {
+        .nav-mobile-button:focus, .nav-mobile-button:hover, .nav-mobile-button:active .nav-mobile-menu-container {
             display: block;
             width: calc(100% - 64px);
             height: calc(100vh - 48px);
-            margin-left: calc(-100% + 52px);
-            margin-top: -43px;
+            margin-left: calc(-100% + 58px);
+            margin-top: -32px;
             position: absolute;
             background: #0158a6;
             padding: 32px;
